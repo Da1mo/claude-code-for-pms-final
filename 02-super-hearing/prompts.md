@@ -16,6 +16,16 @@ prompt library built from your own questions.
 
 ### 1.
 
+can you correlate the issues identified on the console with both callouts and supply?
+
 ### 2.
 
+what you mean with routing?
+
 ### 3.
+
+what is the algorithm to define the ranking for the handlers
+
+### 4.
+
+think you are the product manager. set me a list of issues based on the data you have and priority index based on the value for the product
