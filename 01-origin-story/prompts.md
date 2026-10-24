@@ -28,4 +28,12 @@ What's contradictory or missing, not just in the company documents, but across R
 
 ### 2.
 
+can you summarize the issues that happened with the 4.2 version.. and build me a table that you write the most likely reason why
+
 ### 3.
+
+can you compare this with the data gathered from ravi?
+
+### 4.
+
+so the tickets are assigned with the location proximity thats calculated by the system?

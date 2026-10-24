@@ -134,3 +134,7 @@ Customers who come up: Halloran (Sgt. Bulwark; mostly Supply), Aunt Dot
 - The ticket themes in the DB match Nadia's split: since 4.2, about 26 "quiet / nothing coming" tickets vs 11 "vanished before he could answer."
 - The Sep 2026 customer interviews (wiki > Research, run by Sofia) fit the per-responder data. Kip says Meteor Mite is quiet while The Gale is busy, Aunt Dot describes both quiet weeks and pings vanishing for Vesper, and Ambrose says Captain Vantage lost one mid-suit-up.
 - Open questions: whether the routing change was meant to hit responders who decline (ask Wen), why incoming callouts dipped in the release week (ask Ravi), and which 4.2 items are still Q3 commitments (ask Helen).
+- Most likely 4.2 story (my read, not confirmed): the 60s ping wait caused a wave of missed pings. Because a miss is scored like a "no" with no recovery, some responders sank in the ranking until they stopped being reached. The proximity change likely shaped who got busier but doesn't explain the release-week drop. The seasonal explanation isn't supported by the data.
+- No data from Ravi exists yet: his wiki page is empty, and all the 4.2 numbers so far are my own counts from the raw DB. To ask him for: time-to-answer per ping, per-responder weekly pings and scores, and data after 7 Sep.
+- Travel-time proximity can't be checked: `travel_time_minutes()` is a placeholder in the repo, and the DB has no locations.
+- Terminology: "tickets" are support complaints, while the system routes "callouts" and offers them as "pings".
