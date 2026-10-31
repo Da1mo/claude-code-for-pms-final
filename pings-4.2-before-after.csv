@@ -1,0 +1,1697 @@
+callout_number,sent_at,responder,outcome,period
+40101,2026-06-29 00:05:03,The Longcast,turned down,before
+40101,2026-06-29 00:05:14,Vesper,taken,before
+40102,2026-06-29 00:28:52,The Drift,taken,before
+40103,2026-06-29 02:30:09,Sgt. Bulwark,taken,before
+40104,2026-06-29 05:43:24,The Undertow,taken,before
+40105,2026-06-29 06:51:38,The Gale,taken,before
+40106,2026-06-29 07:26:38,The Undertow,taken,before
+40107,2026-06-29 08:33:37,The Gale,taken,before
+40108,2026-06-29 10:29:44,Corporal Ashgrove,taken,before
+40109,2026-06-29 11:19:23,The Gale,taken,before
+40110,2026-06-29 12:08:36,Sgt. Falkirk,taken,before
+40111,2026-06-29 13:52:31,The Undertow,turned down,before
+40111,2026-06-29 13:53:01,Stormwrack,taken,before
+40112,2026-06-29 14:31:58,The Undertow,taken,before
+40113,2026-06-29 15:17:16,Ironvale,turned down,before
+40113,2026-06-29 15:17:23,The Undertow,taken,before
+40114,2026-06-29 17:41:12,The Gale,taken,before
+40115,2026-06-29 18:15:12,Captain Vantage,taken,before
+40116,2026-06-29 18:18:10,The Undertow,turned down,before
+40116,2026-06-29 18:18:46,The Drift,taken,before
+40117,2026-06-29 19:17:36,Sgt. Falkirk,taken,before
+40118,2026-06-29 19:32:50,Ironvale,taken,before
+40119,2026-06-29 23:12:47,Halfmoon,taken,before
+40120,2026-06-30 00:24:53,Corporal Ashgrove,taken,before
+40121,2026-06-30 05:35:31,Sgt. Falkirk,taken,before
+40122,2026-06-30 07:37:28,Sgt. Bulwark,turned down,before
+40122,2026-06-30 07:37:38,Farlight,taken,before
+40123,2026-06-30 08:58:07,The Undertow,turned down,before
+40123,2026-06-30 08:58:47,Ironvale,taken,before
+40124,2026-06-30 09:58:05,Nightwell,taken,before
+40125,2026-06-30 14:27:13,Captain Vantage,taken,before
+40126,2026-06-30 15:05:59,Vesper,turned down,before
+40126,2026-06-30 15:06:13,Captain Vantage,turned down,before
+40126,2026-06-30 15:06:42,Nightwell,taken,before
+40127,2026-06-30 16:05:23,Captain Vantage,taken,before
+40128,2026-06-30 18:33:32,Sgt. Falkirk,taken,before
+40129,2026-06-30 19:17:35,Vesper,taken,before
+40130,2026-06-30 19:18:08,Cindermark,taken,before
+40131,2026-06-30 20:29:36,Halfmoon,taken,before
+40132,2026-06-30 21:08:20,Nightwell,missed,before
+40133,2026-06-30 21:21:22,Captain Vantage,taken,before
+40134,2026-06-30 22:00:29,The Drift,taken,before
+40135,2026-06-30 23:54:21,Farlight,turned down,before
+40135,2026-06-30 23:54:48,The Gale,turned down,before
+40135,2026-06-30 23:55:16,Sgt. Bulwark,taken,before
+40136,2026-07-01 07:09:56,Nightwell,taken,before
+40137,2026-07-01 08:42:54,Meteor Mite,taken,before
+40138,2026-07-01 08:52:11,Farlight,taken,before
+40139,2026-07-01 10:44:03,The Undertow,taken,before
+40140,2026-07-01 11:02:51,Captain Vantage,turned down,before
+40141,2026-07-01 11:25:53,Cindermark,taken,before
+40142,2026-07-01 11:27:10,Farlight,turned down,before
+40142,2026-07-01 11:27:17,Sgt. Bulwark,taken,before
+40143,2026-07-01 11:30:28,Farlight,turned down,before
+40143,2026-07-01 11:30:41,Cindermark,turned down,before
+40144,2026-07-01 13:24:49,Halfmoon,taken,before
+40145,2026-07-01 13:26:39,Corporal Ashgrove,taken,before
+40146,2026-07-01 13:29:24,Vesper,taken,before
+40147,2026-07-01 15:00:12,Meteor Mite,turned down,before
+40147,2026-07-01 15:00:18,The Gale,taken,before
+40148,2026-07-01 15:18:23,Nightwell,taken,before
+40149,2026-07-01 15:34:19,Sgt. Bulwark,taken,before
+40150,2026-07-01 17:40:33,Nightwell,taken,before
+40151,2026-07-01 18:53:31,Halfmoon,turned down,before
+40151,2026-07-01 18:54:08,Corporal Ashgrove,taken,before
+40152,2026-07-01 18:55:51,Stormwrack,taken,before
+40153,2026-07-01 18:56:42,Corporal Ashgrove,turned down,before
+40154,2026-07-01 19:24:47,The Undertow,taken,before
+40155,2026-07-01 19:25:00,Vesper,taken,before
+40156,2026-07-01 20:02:01,Nightwell,taken,before
+40157,2026-07-01 20:17:39,Vesper,taken,before
+40158,2026-07-01 20:52:54,Farlight,taken,before
+40159,2026-07-01 20:54:41,Sgt. Bulwark,taken,before
+40160,2026-07-01 20:56:25,Corporal Ashgrove,turned down,before
+40160,2026-07-01 20:56:43,Halfmoon,taken,before
+40161,2026-07-01 21:16:44,Cindermark,turned down,before
+40161,2026-07-01 21:17:01,Farlight,taken,before
+40162,2026-07-01 21:53:49,Captain Vantage,taken,before
+40163,2026-07-01 21:54:08,Farlight,taken,before
+40164,2026-07-01 21:54:39,Captain Vantage,taken,before
+40165,2026-07-02 01:13:37,Nightwell,turned down,before
+40165,2026-07-02 01:13:57,Meteor Mite,taken,before
+40166,2026-07-02 03:47:58,Cindermark,taken,before
+40167,2026-07-02 04:15:09,Stormwrack,taken,before
+40168,2026-07-02 05:44:48,Meteor Mite,taken,before
+40169,2026-07-02 06:53:56,Ironvale,taken,before
+40170,2026-07-02 08:04:29,Sgt. Bulwark,taken,before
+40171,2026-07-02 08:34:27,Farlight,taken,before
+40172,2026-07-02 08:38:48,Stormwrack,taken,before
+40173,2026-07-02 08:43:41,Vesper,taken,before
+40174,2026-07-02 09:03:53,Farlight,taken,before
+40175,2026-07-02 09:54:15,Halfmoon,taken,before
+40176,2026-07-02 12:10:02,Sgt. Falkirk,taken,before
+40177,2026-07-02 13:36:44,Nightwell,taken,before
+40178,2026-07-02 13:53:08,The Gale,taken,before
+40179,2026-07-02 15:38:56,Vesper,taken,before
+40180,2026-07-02 16:58:37,Cindermark,taken,before
+40181,2026-07-02 18:44:52,Corporal Ashgrove,taken,before
+40182,2026-07-02 19:12:55,Halfmoon,taken,before
+40183,2026-07-02 19:41:21,Corporal Ashgrove,taken,before
+40184,2026-07-02 20:03:55,The Longcast,taken,before
+40185,2026-07-02 20:42:46,Ironvale,taken,before
+40186,2026-07-02 22:18:35,Stormwrack,taken,before
+40187,2026-07-03 04:14:14,Ironvale,taken,before
+40188,2026-07-03 07:28:31,The Longcast,turned down,before
+40188,2026-07-03 07:28:48,Vesper,taken,before
+40189,2026-07-03 09:15:01,Stormwrack,taken,before
+40190,2026-07-03 13:45:33,Nightwell,taken,before
+40191,2026-07-03 14:07:31,The Gale,taken,before
+40192,2026-07-03 14:51:08,Vesper,taken,before
+40193,2026-07-03 15:02:14,Sgt. Falkirk,taken,before
+40194,2026-07-03 15:42:38,Corporal Ashgrove,taken,before
+40195,2026-07-03 16:08:54,Sgt. Bulwark,turned down,before
+40195,2026-07-03 16:09:25,Farlight,taken,before
+40196,2026-07-03 17:30:15,Stormwrack,turned down,before
+40196,2026-07-03 17:30:31,The Undertow,taken,before
+40197,2026-07-03 17:45:50,The Undertow,taken,before
+40198,2026-07-03 18:22:11,Meteor Mite,taken,before
+40199,2026-07-03 18:37:35,Cindermark,taken,before
+40200,2026-07-03 19:11:13,Stormwrack,taken,before
+40201,2026-07-03 19:11:34,The Longcast,taken,before
+40202,2026-07-03 19:19:22,Captain Vantage,taken,before
+40203,2026-07-03 19:57:36,The Longcast,taken,before
+40204,2026-07-03 20:04:50,The Gale,taken,before
+40205,2026-07-03 20:11:11,Vesper,turned down,before
+40205,2026-07-03 20:11:25,The Longcast,taken,before
+40206,2026-07-03 21:57:35,Captain Vantage,taken,before
+40207,2026-07-03 22:33:01,Stormwrack,taken,before
+40208,2026-07-04 00:50:50,Farlight,taken,before
+40209,2026-07-04 01:00:59,Vesper,taken,before
+40210,2026-07-04 01:14:48,Stormwrack,taken,before
+40211,2026-07-04 06:24:12,Ironvale,taken,before
+40212,2026-07-04 07:28:05,Captain Vantage,taken,before
+40213,2026-07-04 07:40:16,Stormwrack,turned down,before
+40213,2026-07-04 07:40:30,The Drift,taken,before
+40214,2026-07-04 07:49:13,Cindermark,taken,before
+40215,2026-07-04 08:57:14,Meteor Mite,turned down,before
+40216,2026-07-04 11:56:19,Meteor Mite,turned down,before
+40216,2026-07-04 11:56:27,Nightwell,taken,before
+40217,2026-07-04 12:29:07,The Undertow,taken,before
+40218,2026-07-04 14:07:55,Cindermark,taken,before
+40219,2026-07-04 14:16:19,Nightwell,turned down,before
+40219,2026-07-04 14:16:59,Vesper,taken,before
+40220,2026-07-04 14:47:06,Meteor Mite,turned down,before
+40220,2026-07-04 14:47:17,The Gale,taken,before
+40221,2026-07-04 17:14:56,Sgt. Falkirk,taken,before
+40222,2026-07-04 17:17:03,Halfmoon,taken,before
+40223,2026-07-04 17:40:36,Sgt. Falkirk,missed,before
+40223,2026-07-04 17:42:08,Corporal Ashgrove,taken,before
+40224,2026-07-04 18:50:27,Stormwrack,turned down,before
+40224,2026-07-04 18:50:46,The Drift,turned down,before
+40225,2026-07-04 23:33:02,The Gale,missed,before
+40225,2026-07-04 23:34:33,Meteor Mite,taken,before
+40226,2026-07-05 09:12:38,Stormwrack,taken,before
+40227,2026-07-05 11:16:03,Nightwell,taken,before
+40228,2026-07-05 12:17:37,The Gale,turned down,before
+40228,2026-07-05 12:18:08,Meteor Mite,taken,before
+40229,2026-07-05 14:05:20,Nightwell,turned down,before
+40229,2026-07-05 14:05:27,The Gale,taken,before
+40230,2026-07-05 15:35:45,Halfmoon,taken,before
+40231,2026-07-05 15:58:42,Sgt. Falkirk,taken,before
+40232,2026-07-05 17:34:55,Halfmoon,turned down,before
+40233,2026-07-05 17:57:30,Ironvale,turned down,before
+40234,2026-07-05 18:17:48,Meteor Mite,taken,before
+40235,2026-07-05 18:56:18,Nightwell,taken,before
+40236,2026-07-05 19:04:54,Captain Vantage,taken,before
+40237,2026-07-05 19:37:38,The Drift,taken,before
+40238,2026-07-05 19:37:56,Sgt. Bulwark,taken,before
+40239,2026-07-05 22:04:58,Vesper,turned down,before
+40240,2026-07-05 23:03:41,Sgt. Falkirk,taken,before
+40241,2026-07-05 23:45:00,Halfmoon,turned down,before
+40241,2026-07-05 23:45:09,The Longcast,taken,before
+40242,2026-07-06 00:51:38,Nightwell,taken,before
+40243,2026-07-06 01:21:49,Captain Vantage,taken,before
+40244,2026-07-06 01:41:04,Sgt. Bulwark,taken,before
+40245,2026-07-06 02:29:26,The Longcast,taken,before
+40246,2026-07-06 04:25:01,Farlight,taken,before
+40247,2026-07-06 06:38:23,Cindermark,taken,before
+40248,2026-07-06 08:04:12,The Gale,taken,before
+40249,2026-07-06 08:44:59,The Longcast,missed,before
+40249,2026-07-06 08:46:30,Vesper,taken,before
+40250,2026-07-06 10:14:41,Captain Vantage,taken,before
+40251,2026-07-06 10:22:27,Nightwell,taken,before
+40252,2026-07-06 11:16:03,Captain Vantage,taken,before
+40253,2026-07-06 11:23:47,Ironvale,taken,before
+40254,2026-07-06 11:25:30,Corporal Ashgrove,taken,before
+40255,2026-07-06 11:40:07,Sgt. Bulwark,taken,before
+40256,2026-07-06 15:15:02,The Gale,turned down,before
+40256,2026-07-06 15:15:25,Meteor Mite,taken,before
+40257,2026-07-06 16:36:56,The Undertow,taken,before
+40258,2026-07-06 17:05:43,Sgt. Falkirk,taken,before
+40259,2026-07-06 17:21:58,Stormwrack,taken,before
+40260,2026-07-06 20:00:55,Nightwell,turned down,before
+40260,2026-07-06 20:01:21,The Gale,taken,before
+40261,2026-07-06 20:40:57,The Drift,turned down,before
+40262,2026-07-06 20:52:02,Corporal Ashgrove,taken,before
+40263,2026-07-06 21:29:43,The Longcast,taken,before
+40264,2026-07-06 22:02:00,Corporal Ashgrove,taken,before
+40265,2026-07-07 02:00:13,Vesper,missed,before
+40265,2026-07-07 02:01:44,The Longcast,taken,before
+40266,2026-07-07 08:27:53,The Drift,taken,before
+40267,2026-07-07 09:58:27,Sgt. Falkirk,missed,before
+40267,2026-07-07 09:59:58,Farlight,taken,before
+40268,2026-07-07 11:43:40,The Gale,turned down,before
+40268,2026-07-07 11:44:18,Meteor Mite,taken,before
+40269,2026-07-07 12:26:29,Halfmoon,taken,before
+40270,2026-07-07 14:12:27,Stormwrack,taken,before
+40271,2026-07-07 14:17:51,The Undertow,turned down,before
+40271,2026-07-07 14:18:27,Ironvale,turned down,before
+40272,2026-07-07 14:51:41,Cindermark,taken,before
+40273,2026-07-07 15:14:20,Nightwell,turned down,before
+40273,2026-07-07 15:14:46,Captain Vantage,taken,before
+40274,2026-07-07 16:14:36,Corporal Ashgrove,turned down,before
+40274,2026-07-07 16:15:04,Sgt. Falkirk,taken,before
+40275,2026-07-07 17:09:39,The Undertow,taken,before
+40276,2026-07-07 17:17:53,Meteor Mite,taken,before
+40277,2026-07-07 17:19:59,The Undertow,taken,before
+40278,2026-07-07 17:23:10,Corporal Ashgrove,turned down,before
+40278,2026-07-07 17:23:48,Halfmoon,taken,before
+40279,2026-07-07 18:25:07,Sgt. Bulwark,taken,before
+40280,2026-07-07 18:39:11,Captain Vantage,turned down,before
+40280,2026-07-07 18:39:49,Vesper,taken,before
+40281,2026-07-07 18:42:48,The Drift,taken,before
+40282,2026-07-07 19:57:00,Corporal Ashgrove,taken,before
+40283,2026-07-07 20:01:49,The Drift,taken,before
+40284,2026-07-07 20:28:33,Cindermark,taken,before
+40285,2026-07-07 20:56:40,Vesper,taken,before
+40286,2026-07-07 21:18:10,Sgt. Falkirk,taken,before
+40287,2026-07-07 21:30:31,Ironvale,taken,before
+40288,2026-07-07 21:36:08,The Gale,taken,before
+40289,2026-07-07 22:59:50,Meteor Mite,taken,before
+40290,2026-07-08 00:09:15,Farlight,turned down,before
+40291,2026-07-08 01:52:21,Cindermark,taken,before
+40292,2026-07-08 08:05:01,Sgt. Falkirk,taken,before
+40293,2026-07-08 08:48:28,Meteor Mite,taken,before
+40294,2026-07-08 10:18:26,Captain Vantage,taken,before
+40295,2026-07-08 10:41:25,Sgt. Falkirk,taken,before
+40296,2026-07-08 11:00:18,Halfmoon,turned down,before
+40296,2026-07-08 11:00:36,Corporal Ashgrove,taken,before
+40297,2026-07-08 13:14:49,The Drift,taken,before
+40298,2026-07-08 13:49:17,Sgt. Falkirk,turned down,before
+40298,2026-07-08 13:49:31,Farlight,taken,before
+40299,2026-07-08 15:03:29,The Gale,turned down,before
+40299,2026-07-08 15:03:38,Nightwell,taken,before
+40300,2026-07-08 16:31:38,Nightwell,taken,before
+40301,2026-07-08 17:10:39,Vesper,taken,before
+40302,2026-07-08 17:29:14,Stormwrack,taken,before
+40303,2026-07-08 18:25:40,Nightwell,turned down,before
+40303,2026-07-08 18:26:02,The Gale,taken,before
+40304,2026-07-08 18:41:31,Captain Vantage,missed,before
+40304,2026-07-08 18:43:03,Nightwell,taken,before
+40305,2026-07-08 19:44:26,Meteor Mite,taken,before
+40306,2026-07-08 20:06:49,Ironvale,turned down,before
+40306,2026-07-08 20:07:15,The Undertow,taken,before
+40307,2026-07-08 20:14:20,Stormwrack,taken,before
+40308,2026-07-08 21:10:55,Sgt. Falkirk,taken,before
+40309,2026-07-08 21:25:46,The Undertow,taken,before
+40310,2026-07-08 21:26:57,Sgt. Falkirk,taken,before
+40311,2026-07-09 02:34:45,Ironvale,turned down,before
+40311,2026-07-09 02:35:09,The Undertow,taken,before
+40312,2026-07-09 05:14:32,Captain Vantage,taken,before
+40313,2026-07-09 08:16:40,Farlight,taken,before
+40314,2026-07-09 08:22:53,The Drift,taken,before
+40315,2026-07-09 08:37:39,The Undertow,turned down,before
+40315,2026-07-09 08:38:12,Stormwrack,turned down,before
+40316,2026-07-09 16:01:55,Captain Vantage,taken,before
+40317,2026-07-09 17:37:18,Corporal Ashgrove,taken,before
+40318,2026-07-09 17:49:42,Captain Vantage,taken,before
+40319,2026-07-09 18:18:49,Halfmoon,taken,before
+40320,2026-07-09 18:47:56,Farlight,taken,before
+40321,2026-07-09 19:41:48,Farlight,turned down,before
+40321,2026-07-09 19:42:12,Sgt. Bulwark,taken,before
+40322,2026-07-09 20:11:28,Farlight,turned down,before
+40322,2026-07-09 20:11:55,Cindermark,taken,before
+40323,2026-07-09 21:21:45,Farlight,taken,before
+40324,2026-07-09 21:32:54,The Undertow,taken,before
+40325,2026-07-09 22:13:01,Halfmoon,taken,before
+40326,2026-07-09 22:53:18,Corporal Ashgrove,taken,before
+40327,2026-07-09 23:00:48,Vesper,taken,before
+40328,2026-07-10 07:39:09,The Undertow,taken,before
+40329,2026-07-10 07:47:54,Cindermark,taken,before
+40330,2026-07-10 10:07:10,Halfmoon,taken,before
+40331,2026-07-10 10:23:10,Halfmoon,turned down,before
+40332,2026-07-10 13:27:55,Halfmoon,turned down,before
+40333,2026-07-10 17:08:08,Stormwrack,turned down,before
+40334,2026-07-10 18:18:05,Nightwell,turned down,before
+40334,2026-07-10 18:18:36,Meteor Mite,turned down,before
+40335,2026-07-10 18:41:02,Sgt. Bulwark,turned down,before
+40335,2026-07-10 18:41:32,Meteor Mite,taken,before
+40336,2026-07-10 21:22:52,Stormwrack,taken,before
+40337,2026-07-10 21:57:56,Captain Vantage,taken,before
+40338,2026-07-11 06:19:57,Sgt. Bulwark,taken,before
+40339,2026-07-11 08:46:11,Farlight,taken,before
+40340,2026-07-11 10:14:55,Nightwell,taken,before
+40341,2026-07-11 10:35:21,Cindermark,taken,before
+40342,2026-07-11 13:47:05,Vesper,taken,before
+40343,2026-07-11 14:02:16,Sgt. Bulwark,turned down,before
+40343,2026-07-11 14:02:44,Farlight,taken,before
+40344,2026-07-11 14:16:15,Vesper,turned down,before
+40344,2026-07-11 14:16:43,Nightwell,taken,before
+40345,2026-07-11 15:03:21,Vesper,taken,before
+40346,2026-07-11 16:10:26,The Undertow,taken,before
+40347,2026-07-11 19:07:59,Sgt. Bulwark,taken,before
+40348,2026-07-11 19:11:10,The Longcast,taken,before
+40349,2026-07-11 20:30:50,Meteor Mite,turned down,before
+40349,2026-07-11 20:31:04,The Gale,taken,before
+40350,2026-07-11 20:40:48,Stormwrack,taken,before
+40351,2026-07-11 21:20:33,Captain Vantage,turned down,before
+40351,2026-07-11 21:20:45,Vesper,taken,before
+40352,2026-07-11 21:29:50,Vesper,turned down,before
+40352,2026-07-11 21:30:01,Nightwell,taken,before
+40353,2026-07-11 21:58:41,Stormwrack,taken,before
+40354,2026-07-12 00:23:03,The Longcast,taken,before
+40355,2026-07-12 07:52:06,The Gale,taken,before
+40356,2026-07-12 08:23:33,The Gale,taken,before
+40357,2026-07-12 10:49:05,Corporal Ashgrove,taken,before
+40358,2026-07-12 10:50:58,The Gale,taken,before
+40359,2026-07-12 10:55:27,Vesper,taken,before
+40360,2026-07-12 10:56:50,Stormwrack,taken,before
+40361,2026-07-12 10:59:34,Stormwrack,taken,before
+40362,2026-07-12 11:09:54,Halfmoon,taken,before
+40363,2026-07-12 11:43:13,The Gale,taken,before
+40364,2026-07-12 13:21:34,Meteor Mite,taken,before
+40365,2026-07-12 13:43:42,Stormwrack,taken,before
+40366,2026-07-12 14:20:07,Stormwrack,taken,before
+40367,2026-07-12 15:19:47,Nightwell,taken,before
+40368,2026-07-12 15:27:03,Ironvale,taken,before
+40369,2026-07-12 15:27:38,Sgt. Bulwark,taken,before
+40370,2026-07-12 15:37:05,Cindermark,turned down,before
+40370,2026-07-12 15:37:37,Farlight,taken,before
+40371,2026-07-12 15:58:53,The Longcast,turned down,before
+40371,2026-07-12 15:59:18,Halfmoon,taken,before
+40372,2026-07-12 16:07:57,Vesper,taken,before
+40373,2026-07-12 16:37:03,Cindermark,taken,before
+40374,2026-07-12 18:51:07,Meteor Mite,taken,before
+40375,2026-07-12 19:03:25,Sgt. Falkirk,taken,before
+40376,2026-07-12 19:09:14,Ironvale,taken,before
+40377,2026-07-12 20:34:56,Captain Vantage,taken,before
+40378,2026-07-12 22:54:54,Corporal Ashgrove,taken,before
+40379,2026-07-12 23:10:53,Ironvale,taken,before
+40380,2026-07-12 23:59:37,Meteor Mite,turned down,before
+40380,2026-07-12 23:59:54,Nightwell,taken,before
+40381,2026-07-13 00:26:21,Sgt. Bulwark,taken,before
+40382,2026-07-13 00:33:26,The Gale,taken,before
+40383,2026-07-13 01:14:38,The Drift,taken,before
+40384,2026-07-13 02:10:23,Vesper,taken,before
+40385,2026-07-13 04:00:49,The Drift,turned down,before
+40385,2026-07-13 04:01:23,The Undertow,taken,before
+40386,2026-07-13 08:58:25,Cindermark,taken,before
+40387,2026-07-13 09:14:08,Meteor Mite,taken,before
+40388,2026-07-13 10:47:56,Meteor Mite,turned down,before
+40389,2026-07-13 11:17:28,Halfmoon,taken,before
+40390,2026-07-13 11:22:01,The Gale,taken,before
+40391,2026-07-13 11:29:44,The Gale,taken,before
+40392,2026-07-13 12:30:10,The Longcast,taken,before
+40393,2026-07-13 14:06:41,Captain Vantage,taken,before
+40394,2026-07-13 14:56:27,The Drift,taken,before
+40395,2026-07-13 15:31:38,Farlight,taken,before
+40396,2026-07-13 16:10:39,Sgt. Falkirk,taken,before
+40397,2026-07-13 18:24:32,Vesper,taken,before
+40398,2026-07-13 18:26:38,Halfmoon,taken,before
+40399,2026-07-13 18:39:15,Vesper,taken,before
+40400,2026-07-13 19:19:32,The Gale,turned down,before
+40400,2026-07-13 19:20:06,Meteor Mite,taken,before
+40401,2026-07-13 20:21:43,The Undertow,missed,before
+40401,2026-07-13 20:23:15,Ironvale,taken,before
+40402,2026-07-13 23:21:10,Farlight,missed,before
+40402,2026-07-13 23:22:43,Sgt. Falkirk,taken,before
+40403,2026-07-14 07:33:09,Sgt. Bulwark,turned down,before
+40403,2026-07-14 07:33:38,Meteor Mite,turned down,before
+40403,2026-07-14 07:33:59,The Gale,taken,before
+40404,2026-07-14 07:44:54,Captain Vantage,taken,before
+40405,2026-07-14 09:04:24,Nightwell,missed,before
+40405,2026-07-14 09:05:57,Captain Vantage,taken,before
+40406,2026-07-14 10:34:10,Nightwell,taken,before
+40407,2026-07-14 10:40:23,Sgt. Bulwark,taken,before
+40408,2026-07-14 10:49:03,Stormwrack,taken,before
+40409,2026-07-14 11:58:39,Halfmoon,taken,before
+40410,2026-07-14 13:04:23,Nightwell,taken,before
+40411,2026-07-14 17:34:07,Nightwell,taken,before
+40412,2026-07-14 17:34:28,The Longcast,taken,before
+40413,2026-07-14 17:46:20,Nightwell,taken,before
+40414,2026-07-14 19:11:38,Vesper,taken,before
+40415,2026-07-14 20:05:02,Ironvale,taken,before
+40416,2026-07-14 22:15:09,Ironvale,turned down,before
+40416,2026-07-14 22:15:34,Cindermark,taken,before
+40417,2026-07-14 22:46:58,Stormwrack,taken,before
+40418,2026-07-15 05:05:21,Farlight,taken,before
+40419,2026-07-15 09:40:33,Ironvale,taken,before
+40420,2026-07-15 12:08:39,Captain Vantage,turned down,before
+40420,2026-07-15 12:08:45,Vesper,taken,before
+40421,2026-07-15 12:34:38,The Gale,turned down,before
+40421,2026-07-15 12:34:51,Meteor Mite,taken,before
+40422,2026-07-15 12:39:56,Corporal Ashgrove,taken,before
+40423,2026-07-15 13:04:25,The Undertow,taken,before
+40424,2026-07-15 13:44:18,Sgt. Falkirk,turned down,before
+40425,2026-07-15 14:37:40,The Gale,taken,before
+40426,2026-07-15 15:38:20,The Longcast,taken,before
+40427,2026-07-15 15:53:01,The Undertow,taken,before
+40428,2026-07-15 16:52:57,Stormwrack,taken,before
+40429,2026-07-15 18:30:38,The Longcast,taken,before
+40430,2026-07-15 18:45:54,Captain Vantage,taken,before
+40431,2026-07-15 19:01:29,Stormwrack,taken,before
+40432,2026-07-15 19:43:28,Ironvale,taken,before
+40433,2026-07-15 19:50:58,Vesper,taken,before
+40434,2026-07-15 19:57:09,Vesper,taken,before
+40435,2026-07-15 23:26:14,Farlight,taken,before
+40436,2026-07-15 23:34:47,Halfmoon,taken,before
+40437,2026-07-16 09:04:49,Nightwell,turned down,before
+40437,2026-07-16 09:05:24,The Gale,taken,before
+40438,2026-07-16 10:11:08,Sgt. Falkirk,turned down,before
+40438,2026-07-16 10:11:37,Corporal Ashgrove,taken,before
+40439,2026-07-16 10:48:30,Nightwell,taken,before
+40440,2026-07-16 11:53:47,Cindermark,taken,before
+40441,2026-07-16 12:01:36,Nightwell,taken,before
+40442,2026-07-16 13:31:46,Sgt. Bulwark,turned down,before
+40442,2026-07-16 13:31:55,The Gale,taken,before
+40443,2026-07-16 14:13:59,Stormwrack,taken,before
+40444,2026-07-16 14:20:00,Farlight,taken,before
+40445,2026-07-16 17:06:40,Captain Vantage,turned down,before
+40445,2026-07-16 17:06:57,Nightwell,taken,before
+40446,2026-07-16 17:44:06,The Undertow,taken,before
+40447,2026-07-16 18:05:45,Sgt. Bulwark,taken,before
+40448,2026-07-16 19:02:51,Vesper,turned down,before
+40448,2026-07-16 19:03:12,The Longcast,taken,before
+40449,2026-07-16 19:06:18,Farlight,taken,before
+40450,2026-07-16 19:56:21,Stormwrack,turned down,before
+40450,2026-07-16 19:56:53,The Undertow,taken,before
+40451,2026-07-16 20:21:24,Sgt. Falkirk,turned down,before
+40452,2026-07-16 20:22:30,Sgt. Bulwark,taken,before
+40453,2026-07-16 20:43:43,Halfmoon,taken,before
+40454,2026-07-16 21:25:42,Vesper,taken,before
+40455,2026-07-16 21:35:41,The Undertow,taken,before
+40456,2026-07-16 23:07:50,Captain Vantage,turned down,before
+40456,2026-07-16 23:08:06,Nightwell,taken,before
+40457,2026-07-17 01:15:14,Halfmoon,turned down,before
+40457,2026-07-17 01:15:41,Corporal Ashgrove,taken,before
+40458,2026-07-17 04:05:44,The Gale,taken,before
+40459,2026-07-17 07:30:26,The Gale,taken,before
+40460,2026-07-17 08:15:15,Farlight,turned down,before
+40460,2026-07-17 08:15:31,Sgt. Falkirk,taken,before
+40461,2026-07-17 09:30:54,Stormwrack,turned down,before
+40461,2026-07-17 09:31:19,The Drift,taken,before
+40462,2026-07-17 14:12:25,Cindermark,taken,before
+40463,2026-07-17 15:19:24,Corporal Ashgrove,missed,before
+40463,2026-07-17 15:20:56,Sgt. Falkirk,taken,before
+40464,2026-07-17 15:21:15,Sgt. Bulwark,taken,before
+40465,2026-07-17 15:36:31,Halfmoon,turned down,before
+40466,2026-07-17 17:26:30,Vesper,taken,before
+40467,2026-07-17 17:52:09,The Undertow,turned down,before
+40467,2026-07-17 17:52:37,Cindermark,turned down,before
+40467,2026-07-17 17:53:14,Ironvale,taken,before
+40468,2026-07-17 17:55:48,The Undertow,turned down,before
+40468,2026-07-17 17:55:57,Stormwrack,taken,before
+40469,2026-07-17 18:02:47,The Undertow,taken,before
+40470,2026-07-17 18:06:14,Sgt. Bulwark,taken,before
+40471,2026-07-17 18:47:51,Stormwrack,turned down,before
+40471,2026-07-17 18:47:57,The Undertow,taken,before
+40472,2026-07-17 19:27:31,Vesper,missed,before
+40472,2026-07-17 19:29:03,Nightwell,taken,before
+40473,2026-07-17 19:42:46,Captain Vantage,taken,before
+40474,2026-07-17 20:15:14,Vesper,taken,before
+40475,2026-07-17 21:01:45,The Gale,turned down,before
+40475,2026-07-17 21:01:54,Meteor Mite,taken,before
+40476,2026-07-18 01:37:24,Sgt. Bulwark,taken,before
+40477,2026-07-18 04:08:41,Halfmoon,turned down,before
+40477,2026-07-18 04:09:02,The Longcast,taken,before
+40478,2026-07-18 07:43:41,The Undertow,taken,before
+40479,2026-07-18 08:18:10,Halfmoon,taken,before
+40480,2026-07-18 08:46:43,The Gale,taken,before
+40481,2026-07-18 12:31:25,The Longcast,turned down,before
+40481,2026-07-18 12:31:39,Halfmoon,taken,before
+40482,2026-07-18 14:47:37,Ironvale,taken,before
+40483,2026-07-18 17:15:37,Nightwell,taken,before
+40484,2026-07-18 17:23:01,Corporal Ashgrove,turned down,before
+40484,2026-07-18 17:23:27,Sgt. Falkirk,taken,before
+40485,2026-07-18 17:42:26,Corporal Ashgrove,taken,before
+40486,2026-07-18 17:54:06,The Drift,taken,before
+40487,2026-07-18 18:19:56,Cindermark,missed,before
+40487,2026-07-18 18:21:28,Ironvale,taken,before
+40488,2026-07-18 18:34:47,Farlight,turned down,before
+40488,2026-07-18 18:35:03,Sgt. Falkirk,taken,before
+40489,2026-07-18 19:34:52,Farlight,taken,before
+40490,2026-07-18 20:31:28,Sgt. Falkirk,taken,before
+40491,2026-07-18 20:51:57,The Drift,taken,before
+40492,2026-07-18 20:57:02,Stormwrack,taken,before
+40493,2026-07-18 21:17:00,Farlight,taken,before
+40494,2026-07-18 23:18:23,Farlight,taken,before
+40495,2026-07-19 06:21:30,Stormwrack,taken,before
+40496,2026-07-19 08:23:17,Stormwrack,taken,before
+40497,2026-07-19 08:46:41,Meteor Mite,taken,before
+40498,2026-07-19 09:10:13,Meteor Mite,taken,before
+40499,2026-07-19 11:40:05,The Drift,taken,before
+40500,2026-07-19 12:14:02,Cindermark,taken,before
+40501,2026-07-19 13:38:11,Nightwell,turned down,before
+40502,2026-07-19 13:50:44,Vesper,taken,before
+40503,2026-07-19 14:10:33,Captain Vantage,taken,before
+40504,2026-07-19 15:14:59,Captain Vantage,turned down,before
+40504,2026-07-19 15:15:23,Nightwell,taken,before
+40505,2026-07-19 15:58:37,Vesper,taken,before
+40506,2026-07-19 17:07:05,Ironvale,taken,before
+40507,2026-07-19 17:33:26,The Longcast,taken,before
+40508,2026-07-19 19:37:56,Vesper,taken,before
+40509,2026-07-19 19:41:24,Captain Vantage,taken,before
+40510,2026-07-19 20:05:10,Sgt. Falkirk,taken,before
+40511,2026-07-19 20:16:31,Cindermark,taken,before
+40512,2026-07-19 20:59:04,Meteor Mite,turned down,before
+40512,2026-07-19 20:59:39,Nightwell,taken,before
+40513,2026-07-19 21:17:01,Corporal Ashgrove,taken,before
+40514,2026-07-19 22:03:25,Corporal Ashgrove,taken,before
+40515,2026-07-19 22:48:11,Meteor Mite,turned down,before
+40515,2026-07-19 22:48:51,Sgt. Bulwark,taken,before
+40516,2026-07-19 23:24:20,Corporal Ashgrove,taken,before
+40517,2026-07-19 23:33:39,Corporal Ashgrove,turned down,before
+40517,2026-07-19 23:33:49,Halfmoon,taken,before
+40518,2026-07-19 23:56:33,Captain Vantage,taken,before
+40519,2026-07-20 00:27:22,Halfmoon,taken,before
+40520,2026-07-20 01:36:48,The Undertow,turned down,before
+40521,2026-07-20 03:56:24,Nightwell,taken,before
+40522,2026-07-20 05:46:45,Cindermark,taken,before
+40523,2026-07-20 06:57:55,The Undertow,turned down,before
+40524,2026-07-20 07:07:24,Sgt. Falkirk,turned down,before
+40525,2026-07-20 09:46:52,Vesper,turned down,before
+40525,2026-07-20 09:47:31,Nightwell,taken,before
+40526,2026-07-20 10:13:04,Vesper,turned down,before
+40526,2026-07-20 10:13:37,Captain Vantage,taken,before
+40527,2026-07-20 10:34:25,Farlight,taken,before
+40528,2026-07-20 11:31:35,Farlight,taken,before
+40529,2026-07-20 16:20:43,Stormwrack,turned down,before
+40529,2026-07-20 16:20:58,The Undertow,taken,before
+40530,2026-07-20 16:25:44,Meteor Mite,taken,before
+40531,2026-07-20 16:51:14,Corporal Ashgrove,taken,before
+40532,2026-07-20 18:02:38,The Undertow,taken,before
+40533,2026-07-20 18:09:53,The Undertow,taken,before
+40534,2026-07-20 18:21:23,Nightwell,turned down,before
+40534,2026-07-20 18:21:50,Meteor Mite,taken,before
+40535,2026-07-20 18:55:56,Sgt. Falkirk,taken,before
+40536,2026-07-20 19:08:00,Cindermark,taken,before
+40537,2026-07-20 21:18:43,The Longcast,turned down,before
+40537,2026-07-20 21:19:02,Vesper,taken,before
+40538,2026-07-21 07:44:48,Farlight,taken,before
+40539,2026-07-21 09:59:43,Cindermark,taken,before
+40540,2026-07-21 10:49:56,Cindermark,turned down,before
+40540,2026-07-21 10:50:29,Farlight,taken,before
+40541,2026-07-21 12:25:32,Corporal Ashgrove,turned down,before
+40541,2026-07-21 12:25:41,Halfmoon,taken,before
+40542,2026-07-21 13:14:43,Corporal Ashgrove,turned down,before
+40542,2026-07-21 13:15:21,Halfmoon,taken,before
+40543,2026-07-21 17:07:51,The Gale,turned down,before
+40543,2026-07-21 17:08:25,Captain Vantage,turned down,before
+40543,2026-07-21 17:08:47,Nightwell,taken,before
+40544,2026-07-21 17:14:19,Captain Vantage,turned down,before
+40544,2026-07-21 17:14:29,Nightwell,taken,before
+40545,2026-07-21 17:20:35,Stormwrack,turned down,before
+40545,2026-07-21 17:21:03,The Drift,taken,before
+40546,2026-07-21 18:34:46,Stormwrack,taken,before
+40547,2026-07-21 18:47:46,The Gale,taken,before
+40548,2026-07-21 19:28:30,Corporal Ashgrove,taken,before
+40549,2026-07-21 21:28:12,Halfmoon,turned down,before
+40549,2026-07-21 21:28:47,Corporal Ashgrove,taken,before
+40550,2026-07-22 01:55:31,Vesper,taken,before
+40551,2026-07-22 06:33:28,Cindermark,taken,before
+40552,2026-07-22 07:52:39,Halfmoon,turned down,before
+40552,2026-07-22 07:52:45,The Longcast,taken,before
+40553,2026-07-22 08:01:11,The Drift,taken,before
+40554,2026-07-22 09:43:31,The Gale,turned down,before
+40554,2026-07-22 09:43:41,Nightwell,taken,before
+40555,2026-07-22 10:22:18,The Gale,taken,before
+40556,2026-07-22 10:27:16,Cindermark,taken,before
+40557,2026-07-22 10:46:54,Ironvale,taken,before
+40558,2026-07-22 11:20:24,Vesper,taken,before
+40559,2026-07-22 11:28:07,Vesper,taken,before
+40560,2026-07-22 11:53:04,Halfmoon,turned down,before
+40561,2026-07-22 14:54:35,Nightwell,taken,before
+40562,2026-07-22 16:04:21,Nightwell,taken,before
+40563,2026-07-22 16:56:45,Vesper,taken,before
+40564,2026-07-22 17:27:51,Farlight,missed,before
+40564,2026-07-22 17:29:24,Sgt. Falkirk,taken,before
+40565,2026-07-22 17:39:53,Captain Vantage,taken,before
+40566,2026-07-22 18:22:25,Vesper,taken,before
+40567,2026-07-22 18:23:01,The Undertow,taken,before
+40568,2026-07-22 18:48:23,Cindermark,turned down,before
+40568,2026-07-22 18:48:41,Sgt. Falkirk,turned down,before
+40568,2026-07-22 18:48:58,Farlight,taken,before
+40569,2026-07-22 19:52:59,Ironvale,turned down,before
+40569,2026-07-22 19:53:32,Cindermark,taken,before
+40570,2026-07-22 20:35:28,The Gale,taken,before
+40571,2026-07-22 21:29:08,Captain Vantage,taken,before
+40572,2026-07-22 21:30:37,Captain Vantage,taken,before
+40573,2026-07-22 22:35:54,The Undertow,taken,before
+40574,2026-07-23 00:45:50,Halfmoon,taken,before
+40575,2026-07-23 07:28:46,The Longcast,taken,before
+40576,2026-07-23 09:48:02,Meteor Mite,missed,before
+40576,2026-07-23 09:49:35,The Gale,taken,before
+40577,2026-07-23 10:42:52,Meteor Mite,turned down,before
+40577,2026-07-23 10:43:32,The Gale,taken,before
+40578,2026-07-23 13:51:42,Nightwell,taken,before
+40579,2026-07-23 14:25:38,Stormwrack,taken,before
+40580,2026-07-23 15:11:22,The Drift,turned down,before
+40581,2026-07-23 15:28:03,The Undertow,taken,before
+40582,2026-07-23 16:17:17,Corporal Ashgrove,taken,before
+40583,2026-07-23 16:24:23,Stormwrack,taken,before
+40584,2026-07-23 16:26:32,Halfmoon,taken,before
+40585,2026-07-23 16:41:02,The Drift,taken,before
+40586,2026-07-23 16:56:21,Vesper,taken,before
+40587,2026-07-23 17:57:15,Nightwell,taken,before
+40588,2026-07-23 18:14:55,Nightwell,turned down,before
+40589,2026-07-23 18:51:00,Nightwell,taken,before
+40590,2026-07-23 19:02:28,The Undertow,taken,before
+40591,2026-07-23 19:32:17,Meteor Mite,taken,before
+40592,2026-07-23 21:08:29,Sgt. Bulwark,taken,before
+40593,2026-07-23 21:12:43,Sgt. Falkirk,taken,before
+40594,2026-07-23 21:19:36,Meteor Mite,taken,before
+40595,2026-07-23 21:52:22,Sgt. Bulwark,turned down,before
+40595,2026-07-23 21:52:31,Farlight,taken,before
+40596,2026-07-23 23:30:21,Farlight,turned down,before
+40596,2026-07-23 23:30:30,Sgt. Bulwark,taken,before
+40597,2026-07-24 01:05:56,Captain Vantage,missed,before
+40597,2026-07-24 01:07:28,Nightwell,missed,before
+40597,2026-07-24 01:09:01,Vesper,taken,before
+40598,2026-07-24 02:06:48,Stormwrack,taken,before
+40599,2026-07-24 04:15:54,The Longcast,taken,before
+40600,2026-07-24 04:51:18,Farlight,taken,before
+40601,2026-07-24 07:13:52,Sgt. Bulwark,taken,before
+40602,2026-07-24 10:20:50,Sgt. Falkirk,taken,before
+40603,2026-07-24 12:23:36,The Longcast,taken,before
+40604,2026-07-24 12:33:04,Meteor Mite,taken,before
+40605,2026-07-24 13:31:16,Farlight,turned down,before
+40606,2026-07-24 13:32:05,Ironvale,turned down,before
+40607,2026-07-24 14:05:15,Sgt. Falkirk,taken,before
+40608,2026-07-24 15:01:41,The Gale,missed,before
+40608,2026-07-24 15:03:12,Sgt. Bulwark,taken,before
+40609,2026-07-24 17:04:06,Nightwell,turned down,before
+40609,2026-07-24 17:04:24,The Gale,taken,before
+40610,2026-07-24 17:16:09,Meteor Mite,turned down,before
+40611,2026-07-24 18:02:45,Halfmoon,turned down,before
+40612,2026-07-24 19:01:11,Stormwrack,taken,before
+40613,2026-07-24 19:11:13,Ironvale,taken,before
+40614,2026-07-24 19:11:50,Captain Vantage,turned down,before
+40615,2026-07-24 19:13:38,Meteor Mite,turned down,before
+40615,2026-07-24 19:13:55,The Gale,taken,before
+40616,2026-07-24 19:37:14,Farlight,taken,before
+40617,2026-07-24 20:11:56,Sgt. Bulwark,turned down,before
+40618,2026-07-24 22:28:24,Sgt. Falkirk,taken,before
+40619,2026-07-24 23:04:18,The Gale,taken,before
+40620,2026-07-25 00:04:51,Farlight,taken,before
+40621,2026-07-25 07:06:26,The Gale,taken,before
+40622,2026-07-25 07:33:50,Ironvale,taken,before
+40623,2026-07-25 09:08:32,Meteor Mite,taken,before
+40624,2026-07-25 09:17:24,Ironvale,taken,before
+40625,2026-07-25 09:33:56,Nightwell,taken,before
+40626,2026-07-25 10:01:19,Stormwrack,taken,before
+40627,2026-07-25 10:36:35,Meteor Mite,taken,before
+40628,2026-07-25 10:56:53,Corporal Ashgrove,taken,before
+40629,2026-07-25 11:34:01,The Drift,taken,before
+40630,2026-07-25 12:16:59,The Undertow,taken,before
+40631,2026-07-25 12:23:45,Stormwrack,taken,before
+40632,2026-07-25 14:25:09,Sgt. Bulwark,taken,before
+40633,2026-07-25 15:25:50,Stormwrack,taken,before
+40634,2026-07-25 15:50:28,Vesper,taken,before
+40635,2026-07-25 16:03:35,Cindermark,taken,before
+40636,2026-07-25 17:51:22,Corporal Ashgrove,taken,before
+40637,2026-07-25 18:01:51,The Longcast,taken,before
+40638,2026-07-25 19:14:51,Vesper,turned down,before
+40638,2026-07-25 19:15:09,Nightwell,taken,before
+40639,2026-07-25 19:47:59,Halfmoon,taken,before
+40640,2026-07-25 19:56:08,Captain Vantage,taken,before
+40641,2026-07-25 20:45:56,Sgt. Falkirk,taken,before
+40642,2026-07-25 21:59:23,Stormwrack,taken,before
+40643,2026-07-25 23:58:39,Stormwrack,taken,before
+40644,2026-07-26 00:32:41,The Undertow,taken,before
+40645,2026-07-26 01:05:13,Vesper,taken,before
+40646,2026-07-26 01:35:56,Captain Vantage,taken,before
+40647,2026-07-26 03:15:36,Stormwrack,taken,before
+40648,2026-07-26 06:17:17,The Undertow,turned down,before
+40648,2026-07-26 06:17:25,Ironvale,taken,before
+40649,2026-07-26 08:16:13,Corporal Ashgrove,taken,before
+40650,2026-07-26 10:11:35,The Longcast,turned down,before
+40650,2026-07-26 10:11:44,Halfmoon,taken,before
+40651,2026-07-26 10:12:50,Sgt. Falkirk,taken,before
+40652,2026-07-26 17:51:36,Captain Vantage,taken,before
+40653,2026-07-26 17:53:51,The Drift,taken,before
+40654,2026-07-26 19:45:10,The Undertow,taken,before
+40655,2026-07-26 19:53:47,The Gale,taken,before
+40656,2026-07-26 20:25:23,Halfmoon,taken,before
+40657,2026-07-26 20:39:27,The Gale,taken,before
+40658,2026-07-26 20:43:53,Sgt. Bulwark,taken,before
+40659,2026-07-26 21:49:59,Sgt. Bulwark,taken,before
+40660,2026-07-26 22:56:22,Cindermark,turned down,before
+40660,2026-07-26 22:56:29,Ironvale,taken,before
+40661,2026-07-26 23:00:30,Stormwrack,taken,before
+40662,2026-07-26 23:08:01,Vesper,taken,before
+40663,2026-07-27 00:47:55,Meteor Mite,taken,before
+40664,2026-07-27 02:07:08,Cindermark,taken,before
+40665,2026-07-27 02:11:47,Halfmoon,taken,before
+40666,2026-07-27 03:28:22,Nightwell,taken,before
+40667,2026-07-27 03:38:33,Ironvale,taken,before
+40668,2026-07-27 04:46:51,The Longcast,taken,before
+40669,2026-07-27 07:04:24,Sgt. Falkirk,taken,before
+40670,2026-07-27 08:33:21,Vesper,taken,before
+40671,2026-07-27 08:54:53,The Undertow,taken,before
+40672,2026-07-27 10:33:30,Sgt. Falkirk,taken,before
+40673,2026-07-27 11:16:35,The Undertow,taken,before
+40674,2026-07-27 12:33:13,Farlight,taken,before
+40675,2026-07-27 12:53:55,The Longcast,taken,before
+40676,2026-07-27 12:56:38,Stormwrack,taken,before
+40677,2026-07-27 13:19:10,Farlight,taken,before
+40678,2026-07-27 15:46:13,Ironvale,turned down,before
+40678,2026-07-27 15:46:27,Cindermark,taken,before
+40679,2026-07-27 16:10:33,Meteor Mite,taken,before
+40680,2026-07-27 16:29:13,Nightwell,taken,before
+40681,2026-07-27 17:33:54,Ironvale,taken,before
+40682,2026-07-27 17:57:32,Corporal Ashgrove,turned down,before
+40683,2026-07-27 18:13:01,Meteor Mite,taken,before
+40684,2026-07-27 18:48:48,The Gale,taken,before
+40685,2026-07-27 18:50:04,Halfmoon,taken,before
+40686,2026-07-27 19:41:04,The Drift,taken,before
+40687,2026-07-27 20:46:37,Vesper,taken,before
+40688,2026-07-27 21:08:41,Halfmoon,taken,before
+40690,2026-07-27 21:18:22,Stormwrack,taken,before
+40689,2026-07-27 21:18:23,Corporal Ashgrove,taken,before
+40691,2026-07-28 01:40:38,Stormwrack,taken,before
+40692,2026-07-28 03:50:25,Nightwell,taken,before
+40693,2026-07-28 07:21:36,Vesper,taken,before
+40694,2026-07-28 09:32:41,Stormwrack,turned down,before
+40694,2026-07-28 09:32:59,The Undertow,taken,before
+40695,2026-07-28 10:44:21,Sgt. Falkirk,turned down,before
+40696,2026-07-28 11:33:09,Vesper,taken,before
+40697,2026-07-28 13:08:21,Sgt. Falkirk,taken,before
+40698,2026-07-28 14:38:54,The Gale,taken,before
+40699,2026-07-28 14:48:20,Vesper,taken,before
+40700,2026-07-28 16:37:35,Stormwrack,taken,before
+40701,2026-07-28 17:52:18,The Undertow,taken,before
+40702,2026-07-28 19:06:04,Meteor Mite,taken,before
+40703,2026-07-28 19:35:03,Halfmoon,taken,before
+40704,2026-07-28 19:46:04,Meteor Mite,missed,before
+40704,2026-07-28 19:47:37,The Gale,taken,before
+40705,2026-07-28 20:31:14,Captain Vantage,taken,before
+40706,2026-07-28 21:29:25,Ironvale,taken,before
+40707,2026-07-28 21:42:42,The Gale,taken,before
+40708,2026-07-28 21:50:42,Stormwrack,turned down,before
+40708,2026-07-28 21:51:20,The Drift,taken,before
+40709,2026-07-28 22:30:38,Sgt. Bulwark,turned down,before
+40709,2026-07-28 22:30:59,Meteor Mite,taken,before
+40710,2026-07-28 22:54:02,Farlight,turned down,before
+40710,2026-07-28 22:54:41,Cindermark,taken,before
+40711,2026-07-29 00:27:43,Nightwell,turned down,before
+40711,2026-07-29 00:27:51,The Gale,taken,before
+40712,2026-07-29 03:31:14,The Longcast,turned down,before
+40712,2026-07-29 03:31:38,Vesper,taken,before
+40713,2026-07-29 04:04:29,The Undertow,taken,before
+40714,2026-07-29 06:26:03,Cindermark,taken,before
+40715,2026-07-29 06:31:41,The Undertow,taken,before
+40716,2026-07-29 08:00:05,Corporal Ashgrove,taken,before
+40717,2026-07-29 08:38:36,Sgt. Falkirk,taken,before
+40718,2026-07-29 11:00:33,Cindermark,taken,before
+40719,2026-07-29 11:04:51,Sgt. Bulwark,taken,before
+40720,2026-07-29 14:17:31,Corporal Ashgrove,taken,before
+40721,2026-07-29 14:23:45,Captain Vantage,taken,before
+40722,2026-07-29 16:56:33,Stormwrack,turned down,before
+40722,2026-07-29 16:57:08,The Undertow,taken,before
+40723,2026-07-29 17:27:26,Sgt. Bulwark,turned down,before
+40723,2026-07-29 17:27:48,Farlight,taken,before
+40724,2026-07-29 18:04:53,Nightwell,taken,before
+40725,2026-07-29 20:00:39,Sgt. Bulwark,taken,before
+40726,2026-07-29 22:59:02,The Longcast,taken,before
+40727,2026-07-30 02:29:21,Vesper,missed,before
+40727,2026-07-30 02:30:52,Captain Vantage,taken,before
+40728,2026-07-30 02:42:52,Corporal Ashgrove,taken,before
+40729,2026-07-30 07:48:26,Vesper,taken,before
+40730,2026-07-30 08:35:02,The Drift,taken,before
+40731,2026-07-30 08:57:49,Halfmoon,taken,before
+40732,2026-07-30 13:24:32,Vesper,taken,before
+40733,2026-07-30 13:57:47,Halfmoon,taken,before
+40734,2026-07-30 13:58:08,Corporal Ashgrove,taken,before
+40735,2026-07-30 16:05:22,Captain Vantage,taken,before
+40736,2026-07-30 16:46:18,The Longcast,taken,before
+40737,2026-07-30 17:09:57,Sgt. Bulwark,turned down,before
+40737,2026-07-30 17:10:19,Meteor Mite,taken,before
+40738,2026-07-30 17:12:40,Nightwell,taken,before
+40739,2026-07-30 18:51:08,Meteor Mite,turned down,before
+40739,2026-07-30 18:51:29,Sgt. Bulwark,taken,before
+40740,2026-07-30 21:25:11,Meteor Mite,taken,before
+40741,2026-07-30 21:50:54,Farlight,taken,before
+40742,2026-07-30 23:08:22,Corporal Ashgrove,taken,before
+40743,2026-07-30 23:17:13,Vesper,taken,before
+40744,2026-07-30 23:22:07,Captain Vantage,taken,before
+40745,2026-07-31 01:33:06,Halfmoon,taken,before
+40746,2026-07-31 08:00:14,Farlight,taken,before
+40747,2026-07-31 08:49:56,Nightwell,turned down,before
+40747,2026-07-31 08:50:18,Captain Vantage,taken,before
+40748,2026-07-31 11:28:08,Vesper,taken,before
+40749,2026-07-31 11:36:50,Halfmoon,turned down,before
+40749,2026-07-31 11:37:28,Corporal Ashgrove,taken,before
+40750,2026-07-31 13:02:24,Halfmoon,taken,before
+40751,2026-07-31 15:42:02,Captain Vantage,turned down,before
+40751,2026-07-31 15:42:42,Nightwell,taken,before
+40752,2026-07-31 16:59:59,Vesper,taken,before
+40753,2026-07-31 17:03:39,Nightwell,taken,before
+40754,2026-07-31 17:54:55,Nightwell,turned down,before
+40754,2026-07-31 17:55:24,The Gale,taken,before
+40755,2026-07-31 18:20:58,Ironvale,missed,before
+40755,2026-07-31 18:22:30,The Undertow,taken,before
+40756,2026-07-31 19:23:10,The Drift,taken,before
+40757,2026-07-31 20:07:05,The Undertow,turned down,before
+40757,2026-07-31 20:07:44,Stormwrack,taken,before
+40758,2026-07-31 20:14:23,The Gale,taken,before
+40759,2026-07-31 21:24:41,The Gale,taken,before
+40760,2026-08-01 01:08:57,Farlight,taken,before
+40761,2026-08-01 08:04:29,Captain Vantage,taken,before
+40762,2026-08-01 08:07:00,The Undertow,turned down,before
+40762,2026-08-01 08:07:40,Stormwrack,taken,before
+40763,2026-08-01 08:16:18,The Longcast,taken,before
+40764,2026-08-01 10:14:14,Nightwell,turned down,before
+40764,2026-08-01 10:14:28,Meteor Mite,taken,before
+40765,2026-08-01 11:43:45,Sgt. Bulwark,taken,before
+40766,2026-08-01 12:36:05,Stormwrack,taken,before
+40767,2026-08-01 12:43:30,Captain Vantage,turned down,before
+40767,2026-08-01 12:43:59,Nightwell,taken,before
+40768,2026-08-01 13:08:06,The Gale,taken,before
+40769,2026-08-01 13:56:15,Cindermark,taken,before
+40770,2026-08-01 14:05:49,The Undertow,taken,before
+40771,2026-08-01 15:48:08,Cindermark,turned down,before
+40771,2026-08-01 15:48:41,Farlight,taken,before
+40772,2026-08-01 16:47:39,Stormwrack,taken,before
+40773,2026-08-01 18:47:54,The Undertow,taken,before
+40774,2026-08-01 19:12:49,Vesper,turned down,before
+40774,2026-08-01 19:13:17,Nightwell,taken,before
+40775,2026-08-01 21:32:21,Sgt. Bulwark,taken,before
+40776,2026-08-01 22:02:27,The Drift,taken,before
+40777,2026-08-01 23:30:17,Farlight,turned down,before
+40778,2026-08-02 00:29:42,Cindermark,taken,before
+40779,2026-08-02 01:31:23,The Gale,taken,before
+40780,2026-08-02 09:17:47,Sgt. Falkirk,turned down,before
+40780,2026-08-02 09:18:03,Farlight,taken,before
+40781,2026-08-02 10:33:20,Sgt. Falkirk,taken,before
+40782,2026-08-02 11:00:32,Farlight,turned down,before
+40782,2026-08-02 11:01:04,Sgt. Falkirk,taken,before
+40783,2026-08-02 11:25:36,Corporal Ashgrove,turned down,before
+40783,2026-08-02 11:25:42,Halfmoon,taken,before
+40784,2026-08-02 12:02:04,Corporal Ashgrove,taken,before
+40785,2026-08-02 13:55:16,Cindermark,turned down,before
+40785,2026-08-02 13:55:53,Ironvale,taken,before
+40786,2026-08-02 14:20:41,The Gale,missed,before
+40787,2026-08-02 14:24:39,Stormwrack,taken,before
+40788,2026-08-02 15:46:06,The Gale,turned down,before
+40788,2026-08-02 15:46:42,Meteor Mite,taken,before
+40789,2026-08-02 15:56:34,Ironvale,taken,before
+40790,2026-08-02 16:09:13,Nightwell,taken,before
+40791,2026-08-02 16:44:42,Captain Vantage,taken,before
+40792,2026-08-02 17:50:25,Captain Vantage,taken,before
+40793,2026-08-02 18:44:46,Farlight,taken,before
+40794,2026-08-02 19:12:14,Meteor Mite,turned down,before
+40794,2026-08-02 19:12:33,The Gale,taken,before
+40795,2026-08-02 20:23:51,The Drift,turned down,before
+40795,2026-08-02 20:24:00,Stormwrack,taken,before
+40796,2026-08-02 20:54:05,Farlight,taken,before
+40798,2026-08-02 21:51:42,Captain Vantage,turned down,before
+40797,2026-08-02 21:51:47,Halfmoon,turned down,before
+40797,2026-08-02 21:52:10,The Longcast,turned down,before
+40798,2026-08-02 21:52:18,Nightwell,taken,before
+40799,2026-08-02 22:08:02,Sgt. Falkirk,taken,before
+40800,2026-08-03 00:45:33,Nightwell,taken,before
+40801,2026-08-03 01:28:56,Nightwell,turned down,before
+40801,2026-08-03 01:29:09,The Gale,taken,before
+40802,2026-08-03 04:24:27,Cindermark,taken,before
+40803,2026-08-03 05:10:19,Stormwrack,turned down,before
+40804,2026-08-03 08:29:43,The Gale,turned down,before
+40805,2026-08-03 09:05:36,Stormwrack,taken,before
+40806,2026-08-03 10:27:09,Sgt. Falkirk,taken,before
+40807,2026-08-03 14:45:00,Halfmoon,turned down,before
+40807,2026-08-03 14:45:08,Corporal Ashgrove,taken,before
+40808,2026-08-03 15:14:16,Halfmoon,taken,before
+40809,2026-08-03 15:44:11,Farlight,turned down,before
+40809,2026-08-03 15:44:23,Sgt. Bulwark,taken,before
+40810,2026-08-03 15:49:37,Sgt. Falkirk,taken,before
+40811,2026-08-03 15:56:23,Nightwell,taken,before
+40812,2026-08-03 17:09:59,Captain Vantage,turned down,before
+40812,2026-08-03 17:10:25,Nightwell,taken,before
+40813,2026-08-03 19:34:01,Meteor Mite,taken,before
+40814,2026-08-03 19:59:51,The Gale,taken,before
+40815,2026-08-03 20:47:40,Captain Vantage,taken,before
+40816,2026-08-04 00:38:32,Cindermark,taken,before
+40817,2026-08-04 06:44:58,Vesper,taken,before
+40818,2026-08-04 08:55:06,Captain Vantage,taken,before
+40819,2026-08-04 10:25:25,The Undertow,taken,before
+40820,2026-08-04 11:59:30,Sgt. Bulwark,taken,before
+40821,2026-08-04 12:27:38,The Gale,taken,before
+40822,2026-08-04 12:43:31,The Undertow,turned down,before
+40823,2026-08-04 15:09:29,Vesper,taken,before
+40824,2026-08-04 15:16:10,Vesper,taken,before
+40825,2026-08-04 15:49:57,Corporal Ashgrove,taken,before
+40826,2026-08-04 16:41:04,The Gale,taken,before
+40827,2026-08-04 18:04:04,Vesper,taken,before
+40828,2026-08-04 20:01:19,Farlight,taken,before
+40829,2026-08-04 20:05:31,The Longcast,taken,before
+40830,2026-08-04 20:34:08,Meteor Mite,taken,before
+40831,2026-08-04 21:36:19,Sgt. Falkirk,taken,before
+40832,2026-08-04 23:11:56,Corporal Ashgrove,taken,before
+40833,2026-08-05 01:49:23,Halfmoon,turned down,before
+40833,2026-08-05 01:49:50,Sgt. Falkirk,turned down,before
+40833,2026-08-05 01:50:19,Corporal Ashgrove,taken,before
+40834,2026-08-05 05:29:14,Farlight,taken,before
+40835,2026-08-05 09:45:43,Farlight,taken,before
+40836,2026-08-05 09:47:42,The Longcast,turned down,before
+40836,2026-08-05 09:47:52,Corporal Ashgrove,turned down,before
+40836,2026-08-05 09:48:05,Halfmoon,taken,before
+40837,2026-08-05 11:36:45,Ironvale,taken,before
+40838,2026-08-05 11:37:04,Ironvale,taken,before
+40839,2026-08-05 12:17:45,Captain Vantage,taken,before
+40840,2026-08-05 13:14:12,Halfmoon,taken,before
+40841,2026-08-05 13:47:28,Nightwell,turned down,before
+40841,2026-08-05 13:47:54,Meteor Mite,turned down,before
+40841,2026-08-05 13:48:23,The Gale,taken,before
+40842,2026-08-05 14:09:36,Cindermark,taken,before
+40843,2026-08-05 14:38:25,Captain Vantage,taken,before
+40844,2026-08-05 14:52:31,The Longcast,taken,before
+40845,2026-08-05 14:53:04,Meteor Mite,taken,before
+40846,2026-08-05 15:17:16,Captain Vantage,taken,before
+40847,2026-08-05 15:21:58,Captain Vantage,taken,before
+40848,2026-08-05 16:26:11,Farlight,taken,before
+40849,2026-08-05 16:49:56,The Longcast,turned down,before
+40849,2026-08-05 16:50:17,Vesper,taken,before
+40850,2026-08-05 17:45:09,The Undertow,taken,before
+40851,2026-08-05 18:17:00,The Drift,missed,before
+40851,2026-08-05 18:18:33,The Undertow,taken,before
+40852,2026-08-05 18:34:20,Corporal Ashgrove,turned down,before
+40852,2026-08-05 18:34:58,Sgt. Falkirk,taken,before
+40853,2026-08-05 18:43:28,Cindermark,taken,before
+40854,2026-08-05 19:44:52,Sgt. Falkirk,turned down,before
+40854,2026-08-05 19:45:15,Farlight,taken,before
+40855,2026-08-05 19:54:09,Nightwell,taken,before
+40856,2026-08-05 20:25:51,Vesper,taken,before
+40857,2026-08-05 20:54:54,The Undertow,turned down,before
+40857,2026-08-05 20:55:01,Stormwrack,taken,before
+40858,2026-08-05 21:36:50,Ironvale,taken,before
+40859,2026-08-05 23:18:05,Sgt. Bulwark,taken,before
+40860,2026-08-06 00:15:50,Sgt. Falkirk,taken,before
+40861,2026-08-06 00:49:55,The Undertow,taken,before
+40862,2026-08-06 01:14:32,Meteor Mite,turned down,before
+40862,2026-08-06 01:14:42,Sgt. Bulwark,taken,before
+40863,2026-08-06 01:21:12,The Gale,turned down,before
+40863,2026-08-06 01:21:33,Meteor Mite,taken,before
+40864,2026-08-06 05:02:01,Meteor Mite,turned down,before
+40864,2026-08-06 05:02:17,Nightwell,taken,before
+40865,2026-08-06 05:48:50,Vesper,taken,before
+40866,2026-08-06 09:43:10,Vesper,taken,before
+40867,2026-08-06 10:33:33,Stormwrack,taken,before
+40868,2026-08-06 11:01:06,The Longcast,taken,before
+40869,2026-08-06 12:15:42,Vesper,turned down,before
+40869,2026-08-06 12:16:18,Nightwell,taken,before
+40870,2026-08-06 12:20:05,Farlight,taken,before
+40871,2026-08-06 12:30:23,Corporal Ashgrove,taken,before
+40872,2026-08-06 14:31:50,Sgt. Bulwark,taken,before
+40873,2026-08-06 14:43:21,Halfmoon,taken,before
+40874,2026-08-06 16:20:56,Meteor Mite,taken,before
+40875,2026-08-06 16:49:59,Stormwrack,taken,before
+40876,2026-08-06 17:48:35,Vesper,taken,before
+40877,2026-08-06 18:03:26,Halfmoon,taken,before
+40878,2026-08-06 19:39:10,The Gale,turned down,before
+40878,2026-08-06 19:39:21,Sgt. Bulwark,taken,before
+40879,2026-08-06 19:47:54,Stormwrack,taken,before
+40880,2026-08-06 20:46:54,Halfmoon,taken,before
+40881,2026-08-06 21:33:41,The Drift,taken,before
+40882,2026-08-06 23:49:52,Cindermark,taken,before
+40883,2026-08-07 04:26:56,The Undertow,turned down,before
+40883,2026-08-07 04:27:26,Stormwrack,taken,before
+40884,2026-08-07 06:59:11,Captain Vantage,taken,before
+40885,2026-08-07 07:17:37,The Drift,taken,before
+40886,2026-08-07 07:37:37,Captain Vantage,taken,before
+40887,2026-08-07 10:29:59,The Undertow,taken,before
+40888,2026-08-07 10:32:07,Nightwell,taken,before
+40889,2026-08-07 12:07:06,The Longcast,taken,before
+40890,2026-08-07 12:35:24,Farlight,turned down,before
+40890,2026-08-07 12:35:47,Sgt. Falkirk,taken,before
+40891,2026-08-07 12:57:50,Vesper,taken,before
+40892,2026-08-07 13:56:47,Sgt. Bulwark,taken,before
+40893,2026-08-07 14:09:13,Nightwell,taken,before
+40894,2026-08-07 15:04:17,Corporal Ashgrove,taken,before
+40895,2026-08-07 16:23:07,Stormwrack,turned down,before
+40895,2026-08-07 16:23:13,The Drift,taken,before
+40896,2026-08-07 16:26:11,Stormwrack,taken,before
+40897,2026-08-07 17:07:09,Vesper,taken,before
+40898,2026-08-07 17:46:08,Halfmoon,taken,before
+40899,2026-08-07 17:50:31,Ironvale,taken,before
+40900,2026-08-07 17:55:23,Vesper,turned down,before
+40900,2026-08-07 17:55:29,Nightwell,taken,before
+40901,2026-08-07 18:42:49,Farlight,taken,before
+40902,2026-08-07 19:51:00,The Undertow,taken,before
+40903,2026-08-07 20:50:04,Captain Vantage,turned down,before
+40903,2026-08-07 20:50:36,Nightwell,taken,before
+40904,2026-08-07 21:22:46,Captain Vantage,taken,before
+40905,2026-08-07 22:12:57,The Undertow,taken,before
+40906,2026-08-07 22:16:32,The Drift,taken,before
+40907,2026-08-07 23:13:18,The Undertow,taken,before
+40908,2026-08-08 00:21:56,Farlight,missed,before
+40908,2026-08-08 00:23:28,Sgt. Falkirk,taken,before
+40909,2026-08-08 07:10:20,Nightwell,taken,before
+40910,2026-08-08 07:11:34,Sgt. Falkirk,taken,before
+40911,2026-08-08 07:53:55,Sgt. Bulwark,turned down,before
+40911,2026-08-08 07:54:09,Meteor Mite,taken,before
+40912,2026-08-08 09:53:12,Halfmoon,turned down,before
+40912,2026-08-08 09:53:19,Corporal Ashgrove,taken,before
+40913,2026-08-08 10:39:12,Sgt. Bulwark,turned down,before
+40913,2026-08-08 10:39:19,Farlight,taken,before
+40914,2026-08-08 11:33:07,Cindermark,turned down,before
+40914,2026-08-08 11:33:45,Ironvale,taken,before
+40915,2026-08-08 13:58:38,The Undertow,taken,before
+40916,2026-08-08 16:54:47,Nightwell,turned down,before
+40916,2026-08-08 16:55:19,Meteor Mite,taken,before
+40917,2026-08-08 17:23:05,Nightwell,taken,before
+40918,2026-08-08 18:24:01,Stormwrack,taken,before
+40919,2026-08-08 18:47:47,Halfmoon,taken,before
+40920,2026-08-08 18:49:02,Stormwrack,taken,before
+40921,2026-08-08 19:51:57,Vesper,taken,before
+40922,2026-08-08 20:19:44,Farlight,turned down,before
+40922,2026-08-08 20:20:17,Cindermark,taken,before
+40923,2026-08-08 20:43:45,Meteor Mite,taken,before
+40924,2026-08-09 00:13:23,Ironvale,taken,before
+40925,2026-08-09 06:35:15,The Gale,taken,before
+40926,2026-08-09 10:21:44,Stormwrack,turned down,before
+40926,2026-08-09 10:21:56,The Drift,taken,before
+40927,2026-08-09 11:54:45,Captain Vantage,turned down,before
+40928,2026-08-09 14:26:57,The Gale,taken,before
+40929,2026-08-09 16:41:24,Stormwrack,taken,before
+40930,2026-08-09 17:20:57,Cindermark,taken,before
+40931,2026-08-09 18:37:12,Corporal Ashgrove,taken,before
+40932,2026-08-09 18:47:54,Ironvale,turned down,before
+40932,2026-08-09 18:48:08,Cindermark,taken,before
+40933,2026-08-09 19:36:57,The Longcast,taken,before
+40934,2026-08-09 20:51:14,Ironvale,taken,before
+40935,2026-08-09 22:26:30,The Gale,taken,before
+40936,2026-08-09 23:02:22,The Gale,taken,before
+40937,2026-08-09 23:37:16,The Gale,taken,before
+40938,2026-08-10 02:01:40,Vesper,taken,before
+40939,2026-08-10 02:19:11,Nightwell,taken,before
+40940,2026-08-10 07:12:36,Halfmoon,taken,before
+40941,2026-08-10 08:37:22,The Drift,taken,before
+40942,2026-08-10 09:02:03,Halfmoon,taken,before
+40943,2026-08-10 09:30:41,Nightwell,taken,before
+40944,2026-08-10 12:39:07,Corporal Ashgrove,taken,before
+40945,2026-08-10 13:33:28,Vesper,turned down,before
+40946,2026-08-10 14:03:36,Meteor Mite,turned down,before
+40946,2026-08-10 14:04:13,Sgt. Bulwark,turned down,before
+40946,2026-08-10 14:04:33,The Gale,taken,before
+40947,2026-08-10 14:08:22,Cindermark,taken,before
+40948,2026-08-10 15:27:06,The Drift,taken,before
+40949,2026-08-10 15:38:46,Farlight,taken,before
+40950,2026-08-10 17:34:47,Farlight,taken,before
+40951,2026-08-10 18:33:56,Halfmoon,turned down,before
+40951,2026-08-10 18:34:33,Sgt. Falkirk,turned down,before
+40951,2026-08-10 18:34:42,Corporal Ashgrove,taken,before
+40952,2026-08-10 18:47:12,Sgt. Falkirk,taken,before
+40953,2026-08-10 18:48:57,Ironvale,turned down,before
+40953,2026-08-10 18:49:29,The Undertow,taken,before
+40954,2026-08-10 19:00:25,Captain Vantage,taken,before
+40955,2026-08-10 19:35:50,Ironvale,taken,before
+40956,2026-08-10 19:45:14,The Undertow,taken,before
+40957,2026-08-10 20:43:20,Captain Vantage,turned down,before
+40957,2026-08-10 20:43:51,Nightwell,taken,before
+40958,2026-08-10 20:54:44,Stormwrack,taken,before
+40959,2026-08-10 21:08:38,Farlight,turned down,before
+40959,2026-08-10 21:09:18,Sgt. Falkirk,taken,before
+40960,2026-08-10 21:15:00,Meteor Mite,taken,before
+40961,2026-08-10 21:41:25,Stormwrack,taken,before
+40962,2026-08-10 22:27:46,Ironvale,taken,before
+40963,2026-08-11 06:41:14,Meteor Mite,taken,before
+40964,2026-08-11 08:46:31,Captain Vantage,taken,before
+40965,2026-08-11 11:10:29,The Gale,taken,before
+40966,2026-08-11 11:38:14,Sgt. Bulwark,taken,before
+40967,2026-08-11 14:39:03,Corporal Ashgrove,turned down,before
+40968,2026-08-11 14:51:59,The Gale,missed,before
+40969,2026-08-11 17:41:06,The Longcast,taken,before
+40970,2026-08-11 18:58:01,The Undertow,turned down,before
+40970,2026-08-11 18:58:24,Stormwrack,taken,before
+40971,2026-08-11 19:00:50,Nightwell,turned down,before
+40971,2026-08-11 19:01:04,The Gale,taken,before
+40972,2026-08-11 19:05:23,Nightwell,taken,before
+40973,2026-08-11 20:43:54,Stormwrack,turned down,before
+40974,2026-08-11 20:49:32,Captain Vantage,taken,before
+40975,2026-08-11 21:00:33,Vesper,taken,before
+40976,2026-08-11 21:13:58,Sgt. Bulwark,taken,before
+40977,2026-08-11 21:18:23,The Longcast,taken,before
+40978,2026-08-11 21:51:59,Cindermark,turned down,before
+40979,2026-08-11 21:57:37,Cindermark,taken,before
+40980,2026-08-12 00:10:35,Stormwrack,taken,after
+40981,2026-08-12 09:04:56,The Undertow,missed,after
+40981,2026-08-12 09:05:58,Stormwrack,taken,after
+40982,2026-08-12 11:41:57,The Drift,missed,after
+40982,2026-08-12 11:42:58,Stormwrack,taken,after
+40983,2026-08-12 14:02:33,Captain Vantage,turned down,after
+40983,2026-08-12 14:02:48,Nightwell,taken,after
+40984,2026-08-12 16:14:12,Halfmoon,turned down,after
+40984,2026-08-12 16:14:19,Corporal Ashgrove,taken,after
+40985,2026-08-12 16:35:28,Sgt. Falkirk,turned down,after
+40985,2026-08-12 16:35:58,Cindermark,turned down,after
+40985,2026-08-12 16:36:14,Farlight,taken,after
+40986,2026-08-12 18:50:45,Ironvale,taken,after
+40987,2026-08-12 19:03:31,Captain Vantage,missed,after
+40987,2026-08-12 19:04:32,Meteor Mite,turned down,after
+40987,2026-08-12 19:04:58,The Gale,missed,after
+40987,2026-08-12 19:05:59,Nightwell,taken,after
+40988,2026-08-12 19:37:29,Stormwrack,missed,after
+40988,2026-08-12 19:38:32,The Drift,taken,after
+40989,2026-08-12 19:51:16,Ironvale,turned down,after
+40989,2026-08-12 19:51:25,Farlight,missed,after
+40989,2026-08-12 19:52:27,Cindermark,taken,after
+40990,2026-08-12 20:02:48,Farlight,turned down,after
+40990,2026-08-12 20:03:25,Sgt. Falkirk,taken,after
+40991,2026-08-12 22:49:02,Stormwrack,missed,after
+40992,2026-08-13 07:34:58,Vesper,missed,after
+40992,2026-08-13 07:36:00,Halfmoon,missed,after
+40992,2026-08-13 07:37:02,The Longcast,taken,after
+40993,2026-08-13 09:45:33,Farlight,missed,after
+40993,2026-08-13 09:46:34,Cindermark,turned down,after
+40993,2026-08-13 09:46:40,Sgt. Falkirk,taken,after
+40994,2026-08-13 11:24:44,The Undertow,missed,after
+40995,2026-08-13 12:23:00,Sgt. Falkirk,missed,after
+40995,2026-08-13 12:24:03,Corporal Ashgrove,taken,after
+40996,2026-08-13 13:27:08,Stormwrack,missed,after
+40996,2026-08-13 13:28:09,The Undertow,taken,after
+40997,2026-08-13 13:43:10,Meteor Mite,missed,after
+40997,2026-08-13 13:44:12,Captain Vantage,turned down,after
+40997,2026-08-13 13:44:48,The Gale,missed,after
+40997,2026-08-13 13:45:51,Nightwell,taken,after
+40998,2026-08-13 14:51:31,Farlight,missed,after
+40998,2026-08-13 14:52:32,Sgt. Falkirk,taken,after
+40999,2026-08-13 15:12:38,Meteor Mite,missed,after
+40999,2026-08-13 15:13:40,The Gale,taken,after
+41000,2026-08-13 15:55:03,The Undertow,taken,after
+41001,2026-08-13 17:20:31,Captain Vantage,taken,after
+41002,2026-08-13 18:02:19,Sgt. Falkirk,missed,after
+41002,2026-08-13 18:03:22,Corporal Ashgrove,turned down,after
+41003,2026-08-13 18:44:20,The Undertow,missed,after
+41004,2026-08-13 21:36:34,The Longcast,taken,after
+41005,2026-08-14 02:52:27,Stormwrack,turned down,after
+41005,2026-08-14 02:53:00,The Undertow,missed,after
+41006,2026-08-14 02:53:02,The Longcast,turned down,after
+41006,2026-08-14 02:53:24,Nightwell,turned down,after
+41006,2026-08-14 02:53:46,Vesper,taken,after
+41007,2026-08-14 06:42:58,Corporal Ashgrove,missed,after
+41007,2026-08-14 06:44:00,Halfmoon,taken,after
+41008,2026-08-14 07:12:43,Halfmoon,taken,after
+41009,2026-08-14 07:26:28,Meteor Mite,missed,after
+41009,2026-08-14 07:27:29,The Gale,taken,after
+41010,2026-08-14 09:04:58,Ironvale,missed,after
+41011,2026-08-14 10:22:29,The Undertow,missed,after
+41011,2026-08-14 10:23:31,Ironvale,taken,after
+41012,2026-08-14 11:34:59,Ironvale,turned down,after
+41012,2026-08-14 11:35:21,Cindermark,taken,after
+41013,2026-08-14 11:44:32,Sgt. Bulwark,missed,after
+41013,2026-08-14 11:45:35,The Gale,taken,after
+41014,2026-08-14 14:24:57,Corporal Ashgrove,turned down,after
+41014,2026-08-14 14:25:09,Sgt. Falkirk,taken,after
+41015,2026-08-14 16:03:16,The Longcast,taken,after
+41016,2026-08-14 16:32:44,Farlight,missed,after
+41016,2026-08-14 16:33:45,Cindermark,taken,after
+41017,2026-08-14 17:10:16,Vesper,missed,after
+41017,2026-08-14 17:11:19,Captain Vantage,taken,after
+41018,2026-08-14 19:35:22,Halfmoon,taken,after
+41019,2026-08-14 19:42:51,The Gale,turned down,after
+41019,2026-08-14 19:43:08,Sgt. Bulwark,taken,after
+41020,2026-08-14 20:22:11,Captain Vantage,taken,after
+41021,2026-08-14 21:22:33,Farlight,taken,after
+41022,2026-08-14 22:43:52,The Gale,taken,after
+41023,2026-08-15 13:01:38,Nightwell,turned down,after
+41023,2026-08-15 13:01:48,The Longcast,turned down,after
+41023,2026-08-15 13:02:09,Vesper,taken,after
+41024,2026-08-15 14:10:01,Sgt. Bulwark,taken,after
+41025,2026-08-15 15:18:08,The Gale,turned down,after
+41025,2026-08-15 15:18:38,Sgt. Bulwark,turned down,after
+41025,2026-08-15 15:18:48,Meteor Mite,taken,after
+41026,2026-08-15 15:33:56,Vesper,turned down,after
+41026,2026-08-15 15:34:13,Nightwell,taken,after
+41027,2026-08-15 16:31:25,Stormwrack,taken,after
+41028,2026-08-15 17:52:04,The Drift,turned down,after
+41029,2026-08-15 17:52:22,Halfmoon,missed,after
+41028,2026-08-15 17:52:27,Stormwrack,taken,after
+41029,2026-08-15 17:53:23,Corporal Ashgrove,taken,after
+41030,2026-08-15 17:58:51,The Drift,missed,after
+41030,2026-08-15 17:59:54,Stormwrack,turned down,after
+41031,2026-08-15 19:06:52,Sgt. Falkirk,taken,after
+41032,2026-08-15 19:39:00,Sgt. Bulwark,missed,after
+41032,2026-08-15 19:40:01,Meteor Mite,taken,after
+41033,2026-08-15 20:52:09,Cindermark,missed,after
+41033,2026-08-15 20:53:11,Ironvale,taken,after
+41034,2026-08-15 20:56:04,The Longcast,missed,after
+41034,2026-08-15 20:57:07,Nightwell,missed,after
+41034,2026-08-15 20:58:08,Vesper,taken,after
+41035,2026-08-16 07:59:00,Cindermark,taken,after
+41036,2026-08-16 09:43:51,Sgt. Bulwark,turned down,after
+41036,2026-08-16 09:44:04,Nightwell,missed,after
+41036,2026-08-16 09:45:06,The Gale,taken,after
+41037,2026-08-16 10:06:28,Nightwell,turned down,after
+41038,2026-08-16 10:40:07,Halfmoon,turned down,after
+41038,2026-08-16 10:40:35,Corporal Ashgrove,taken,after
+41039,2026-08-16 10:46:31,Vesper,missed,after
+41039,2026-08-16 10:47:34,Captain Vantage,taken,after
+41040,2026-08-16 11:16:17,Meteor Mite,missed,after
+41040,2026-08-16 11:17:20,Nightwell,turned down,after
+41041,2026-08-16 13:46:27,The Undertow,turned down,after
+41041,2026-08-16 13:46:42,The Drift,taken,after
+41042,2026-08-16 14:05:10,Vesper,missed,after
+41042,2026-08-16 14:06:13,Captain Vantage,taken,after
+41043,2026-08-16 16:03:13,Captain Vantage,turned down,after
+41043,2026-08-16 16:03:23,Vesper,taken,after
+41044,2026-08-16 17:26:45,Halfmoon,taken,after
+41045,2026-08-16 21:33:19,The Gale,turned down,after
+41045,2026-08-16 21:33:35,Nightwell,taken,after
+41046,2026-08-16 21:36:50,Sgt. Bulwark,taken,after
+41047,2026-08-16 23:19:40,The Gale,taken,after
+41048,2026-08-17 05:52:42,The Longcast,taken,after
+41049,2026-08-17 08:43:29,Cindermark,taken,after
+41050,2026-08-17 08:54:20,Nightwell,missed,after
+41050,2026-08-17 08:55:21,Vesper,taken,after
+41051,2026-08-17 09:32:02,Corporal Ashgrove,taken,after
+41052,2026-08-17 11:33:33,Corporal Ashgrove,turned down,after
+41053,2026-08-17 12:05:02,Sgt. Falkirk,taken,after
+41054,2026-08-17 14:10:18,The Undertow,turned down,after
+41054,2026-08-17 14:10:43,The Drift,taken,after
+41055,2026-08-17 14:57:47,Captain Vantage,taken,after
+41056,2026-08-17 17:03:22,The Gale,taken,after
+41057,2026-08-17 18:59:30,Corporal Ashgrove,taken,after
+41058,2026-08-17 19:01:06,Cindermark,taken,after
+41059,2026-08-17 19:07:03,The Undertow,taken,after
+41060,2026-08-17 19:22:00,The Gale,taken,after
+41061,2026-08-17 19:43:35,The Gale,turned down,after
+41061,2026-08-17 19:44:15,Nightwell,taken,after
+41062,2026-08-17 19:52:41,Ironvale,taken,after
+41063,2026-08-17 20:09:15,Halfmoon,taken,after
+41064,2026-08-17 20:34:11,Sgt. Bulwark,taken,after
+41065,2026-08-17 20:56:36,The Gale,taken,after
+41066,2026-08-17 21:57:40,Stormwrack,turned down,after
+41067,2026-08-17 22:35:48,The Gale,taken,after
+41068,2026-08-17 22:46:45,Stormwrack,taken,after
+41069,2026-08-18 00:37:04,Stormwrack,taken,after
+41070,2026-08-18 07:37:03,Meteor Mite,turned down,after
+41070,2026-08-18 07:37:13,The Gale,taken,after
+41071,2026-08-18 09:05:15,Sgt. Bulwark,taken,after
+41072,2026-08-18 10:47:01,Sgt. Bulwark,turned down,after
+41072,2026-08-18 10:47:30,Nightwell,turned down,after
+41072,2026-08-18 10:47:53,The Gale,taken,after
+41073,2026-08-18 12:04:21,Captain Vantage,taken,after
+41074,2026-08-18 14:25:06,Cindermark,taken,after
+41075,2026-08-18 14:33:01,Sgt. Falkirk,taken,after
+41076,2026-08-18 15:29:30,Nightwell,taken,after
+41077,2026-08-18 15:29:49,Ironvale,taken,after
+41078,2026-08-18 15:47:17,Cindermark,taken,after
+41079,2026-08-18 16:18:10,The Undertow,missed,after
+41079,2026-08-18 16:19:12,Stormwrack,turned down,after
+41079,2026-08-18 16:19:23,Ironvale,taken,after
+41080,2026-08-18 18:20:35,The Gale,turned down,after
+41080,2026-08-18 18:21:04,Sgt. Bulwark,taken,after
+41081,2026-08-18 18:31:31,Stormwrack,taken,after
+41082,2026-08-18 18:32:40,Sgt. Falkirk,turned down,after
+41083,2026-08-18 18:47:42,Sgt. Falkirk,taken,after
+41084,2026-08-18 21:34:26,Cindermark,taken,after
+41085,2026-08-18 21:36:12,Nightwell,taken,after
+41086,2026-08-18 22:07:14,Ironvale,missed,after
+41087,2026-08-18 22:14:48,Sgt. Falkirk,taken,after
+41088,2026-08-19 04:22:40,Halfmoon,turned down,after
+41089,2026-08-19 06:49:14,Sgt. Falkirk,taken,after
+41090,2026-08-19 11:07:41,Sgt. Bulwark,taken,after
+41091,2026-08-19 12:48:15,Halfmoon,missed,after
+41092,2026-08-19 13:28:04,Sgt. Falkirk,turned down,after
+41092,2026-08-19 13:28:40,Farlight,missed,after
+41093,2026-08-19 13:30:22,Sgt. Bulwark,taken,after
+41094,2026-08-19 14:57:57,Captain Vantage,taken,after
+41095,2026-08-19 15:57:45,The Drift,taken,after
+41096,2026-08-19 16:14:53,Ironvale,turned down,after
+41097,2026-08-19 17:29:31,The Gale,missed,after
+41097,2026-08-19 17:30:34,Meteor Mite,taken,after
+41098,2026-08-19 17:31:54,Stormwrack,taken,after
+41099,2026-08-19 17:41:14,Ironvale,missed,after
+41100,2026-08-19 17:50:39,Nightwell,taken,after
+41101,2026-08-19 18:41:47,Halfmoon,taken,after
+41102,2026-08-19 18:42:37,Vesper,missed,after
+41102,2026-08-19 18:43:40,The Longcast,taken,after
+41103,2026-08-19 20:30:41,Captain Vantage,missed,after
+41103,2026-08-19 20:31:42,Nightwell,taken,after
+41104,2026-08-19 20:41:37,Captain Vantage,taken,after
+41105,2026-08-19 21:38:59,Sgt. Falkirk,taken,after
+41106,2026-08-19 21:51:12,Stormwrack,taken,after
+41107,2026-08-19 22:41:18,The Drift,taken,after
+41108,2026-08-20 05:17:31,The Drift,missed,after
+41108,2026-08-20 05:18:32,Stormwrack,taken,after
+41109,2026-08-20 08:28:15,The Drift,taken,after
+41110,2026-08-20 10:20:26,Ironvale,turned down,after
+41110,2026-08-20 10:20:49,Cindermark,taken,after
+41111,2026-08-20 12:35:45,The Gale,turned down,after
+41112,2026-08-20 13:59:16,Stormwrack,taken,after
+41113,2026-08-20 14:24:05,Captain Vantage,missed,after
+41113,2026-08-20 14:25:07,Nightwell,taken,after
+41114,2026-08-20 16:41:50,Meteor Mite,missed,after
+41115,2026-08-20 17:25:45,Captain Vantage,turned down,after
+41116,2026-08-20 17:28:51,Halfmoon,taken,after
+41117,2026-08-20 17:52:21,Nightwell,turned down,after
+41117,2026-08-20 17:52:31,Captain Vantage,taken,after
+41118,2026-08-20 18:37:55,Corporal Ashgrove,taken,after
+41119,2026-08-20 20:41:11,Captain Vantage,taken,after
+41120,2026-08-20 22:36:52,Corporal Ashgrove,missed,after
+41120,2026-08-20 22:37:53,Halfmoon,taken,after
+41121,2026-08-20 22:41:31,Sgt. Bulwark,taken,after
+41122,2026-08-21 03:37:16,Nightwell,taken,after
+41123,2026-08-21 06:30:29,Halfmoon,turned down,after
+41123,2026-08-21 06:30:35,The Longcast,taken,after
+41124,2026-08-21 08:11:21,Sgt. Bulwark,taken,after
+41125,2026-08-21 11:06:11,The Longcast,missed,after
+41125,2026-08-21 11:07:14,Halfmoon,taken,after
+41126,2026-08-21 12:26:55,The Longcast,taken,after
+41127,2026-08-21 16:37:30,Cindermark,missed,after
+41127,2026-08-21 16:38:31,Ironvale,taken,after
+41128,2026-08-21 16:38:57,Stormwrack,taken,after
+41129,2026-08-21 16:44:07,Sgt. Falkirk,missed,after
+41130,2026-08-21 16:45:07,The Undertow,missed,after
+41130,2026-08-21 16:46:08,Stormwrack,missed,after
+41130,2026-08-21 16:47:10,The Drift,taken,after
+41131,2026-08-21 16:49:58,Stormwrack,missed,after
+41132,2026-08-21 17:09:18,Sgt. Bulwark,missed,after
+41132,2026-08-21 17:10:20,The Gale,taken,after
+41133,2026-08-21 17:13:05,Stormwrack,taken,after
+41134,2026-08-21 17:26:16,Nightwell,taken,after
+41135,2026-08-21 20:55:21,Sgt. Falkirk,taken,after
+41136,2026-08-21 21:21:29,Sgt. Bulwark,taken,after
+41137,2026-08-21 21:58:31,The Gale,taken,after
+41138,2026-08-21 22:45:30,Captain Vantage,taken,after
+41139,2026-08-21 22:55:00,Captain Vantage,taken,after
+41140,2026-08-21 23:30:03,Nightwell,taken,after
+41141,2026-08-22 02:25:01,Captain Vantage,taken,after
+41142,2026-08-22 11:13:54,Farlight,turned down,after
+41142,2026-08-22 11:14:14,Cindermark,taken,after
+41143,2026-08-22 11:42:25,Nightwell,taken,after
+41144,2026-08-22 11:45:46,The Gale,taken,after
+41145,2026-08-22 11:52:59,Captain Vantage,taken,after
+41146,2026-08-22 12:25:16,The Gale,taken,after
+41147,2026-08-22 14:23:17,Cindermark,turned down,after
+41148,2026-08-22 14:42:55,The Drift,turned down,after
+41149,2026-08-22 14:55:48,The Longcast,turned down,after
+41150,2026-08-22 17:51:28,Captain Vantage,turned down,after
+41150,2026-08-22 17:51:35,Nightwell,taken,after
+41151,2026-08-22 19:31:39,The Longcast,taken,after
+41152,2026-08-22 20:52:11,The Gale,missed,after
+41152,2026-08-22 20:53:13,Meteor Mite,missed,after
+41152,2026-08-22 20:54:15,Nightwell,taken,after
+41153,2026-08-23 00:10:19,Vesper,missed,after
+41153,2026-08-23 00:11:22,Nightwell,missed,after
+41154,2026-08-23 00:11:25,Sgt. Falkirk,taken,after
+41153,2026-08-23 00:12:25,Captain Vantage,taken,after
+41155,2026-08-23 05:34:55,Vesper,turned down,after
+41155,2026-08-23 05:35:27,Nightwell,taken,after
+41156,2026-08-23 08:08:45,Cindermark,turned down,after
+41156,2026-08-23 08:08:51,Ironvale,taken,after
+41157,2026-08-23 10:07:44,The Gale,taken,after
+41158,2026-08-23 11:04:37,Corporal Ashgrove,turned down,after
+41158,2026-08-23 11:05:01,Sgt. Falkirk,taken,after
+41159,2026-08-23 12:53:56,Stormwrack,taken,after
+41160,2026-08-23 13:51:03,Farlight,missed,after
+41160,2026-08-23 13:52:05,Cindermark,taken,after
+41161,2026-08-23 16:49:10,Sgt. Falkirk,missed,after
+41161,2026-08-23 16:50:13,Corporal Ashgrove,taken,after
+41162,2026-08-23 18:07:34,Corporal Ashgrove,taken,after
+41163,2026-08-23 18:35:05,The Gale,taken,after
+41164,2026-08-23 19:05:03,Ironvale,taken,after
+41165,2026-08-23 20:14:35,Halfmoon,missed,after
+41165,2026-08-23 20:15:38,Vesper,missed,after
+41165,2026-08-23 20:16:41,The Longcast,taken,after
+41166,2026-08-23 20:17:43,Stormwrack,taken,after
+41167,2026-08-23 21:02:22,Stormwrack,taken,after
+41168,2026-08-23 21:41:27,Nightwell,taken,after
+41169,2026-08-24 03:27:52,Cindermark,taken,after
+41170,2026-08-24 07:08:46,Corporal Ashgrove,missed,after
+41170,2026-08-24 07:09:48,Sgt. Falkirk,turned down,after
+41171,2026-08-24 08:46:24,Stormwrack,taken,after
+41172,2026-08-24 10:46:04,Stormwrack,taken,after
+41173,2026-08-24 13:20:15,Stormwrack,taken,after
+41174,2026-08-24 14:36:36,Sgt. Falkirk,taken,after
+41175,2026-08-24 16:52:03,The Longcast,missed,after
+41175,2026-08-24 16:53:04,Nightwell,taken,after
+41176,2026-08-24 17:03:57,The Longcast,missed,after
+41176,2026-08-24 17:04:58,Captain Vantage,taken,after
+41177,2026-08-24 17:11:19,The Gale,taken,after
+41178,2026-08-24 17:12:25,The Gale,missed,after
+41178,2026-08-24 17:13:27,Nightwell,taken,after
+41179,2026-08-24 17:27:04,Stormwrack,turned down,after
+41179,2026-08-24 17:27:26,The Drift,taken,after
+41180,2026-08-24 17:42:37,Stormwrack,taken,after
+41181,2026-08-24 19:00:05,The Gale,missed,after
+41182,2026-08-24 19:13:35,The Longcast,turned down,after
+41183,2026-08-24 20:13:31,Captain Vantage,taken,after
+41184,2026-08-24 20:14:17,Ironvale,taken,after
+41185,2026-08-24 20:24:05,Captain Vantage,taken,after
+41186,2026-08-24 21:40:13,Vesper,turned down,after
+41187,2026-08-24 22:03:29,Stormwrack,missed,after
+41187,2026-08-24 22:04:32,The Drift,taken,after
+41188,2026-08-25 01:06:47,Corporal Ashgrove,taken,after
+41189,2026-08-25 01:20:09,Stormwrack,taken,after
+41190,2026-08-25 01:53:53,The Gale,taken,after
+41191,2026-08-25 08:00:15,Stormwrack,missed,after
+41192,2026-08-25 11:19:05,Sgt. Bulwark,turned down,after
+41192,2026-08-25 11:19:32,The Gale,taken,after
+41193,2026-08-25 12:09:25,The Gale,turned down,after
+41194,2026-08-25 13:00:13,Captain Vantage,missed,after
+41195,2026-08-25 13:22:34,Ironvale,taken,after
+41196,2026-08-25 13:46:16,Sgt. Bulwark,taken,after
+41197,2026-08-25 14:52:48,The Longcast,taken,after
+41198,2026-08-25 15:05:37,Stormwrack,turned down,after
+41199,2026-08-25 17:10:25,Ironvale,taken,after
+41200,2026-08-25 19:35:37,Sgt. Falkirk,missed,after
+41200,2026-08-25 19:36:38,Cindermark,taken,after
+41201,2026-08-25 21:17:41,The Longcast,taken,after
+41202,2026-08-25 22:26:35,Cindermark,turned down,after
+41203,2026-08-25 23:51:02,Cindermark,taken,after
+41204,2026-08-26 00:14:03,Nightwell,taken,after
+41205,2026-08-26 01:20:37,Sgt. Falkirk,taken,after
+41206,2026-08-26 02:18:38,Sgt. Falkirk,taken,after
+41207,2026-08-26 07:12:09,Captain Vantage,taken,after
+41208,2026-08-26 09:21:35,Halfmoon,taken,after
+41209,2026-08-26 09:26:38,Captain Vantage,taken,after
+41210,2026-08-26 09:41:10,The Gale,taken,after
+41211,2026-08-26 12:08:55,Stormwrack,taken,after
+41212,2026-08-26 12:33:56,The Gale,taken,after
+41213,2026-08-26 17:27:46,Halfmoon,taken,after
+41214,2026-08-26 18:09:13,Vesper,missed,after
+41215,2026-08-26 18:35:03,Sgt. Falkirk,taken,after
+41216,2026-08-26 18:57:51,Captain Vantage,taken,after
+41217,2026-08-26 19:05:37,Nightwell,taken,after
+41218,2026-08-26 21:00:05,Captain Vantage,turned down,after
+41218,2026-08-26 21:00:34,Nightwell,taken,after
+41219,2026-08-26 21:22:27,Ironvale,missed,after
+41220,2026-08-26 21:23:12,Ironvale,turned down,after
+41219,2026-08-26 21:23:30,The Drift,taken,after
+41220,2026-08-26 21:23:47,Cindermark,taken,after
+41221,2026-08-26 22:07:39,Halfmoon,taken,after
+41222,2026-08-26 22:34:48,Halfmoon,turned down,after
+41222,2026-08-26 22:35:12,Corporal Ashgrove,taken,after
+41223,2026-08-27 06:12:05,Nightwell,taken,after
+41224,2026-08-27 08:08:00,The Drift,taken,after
+41225,2026-08-27 10:37:29,Cindermark,turned down,after
+41225,2026-08-27 10:37:45,Sgt. Bulwark,turned down,after
+41225,2026-08-27 10:37:58,Sgt. Falkirk,taken,after
+41226,2026-08-27 11:12:30,Nightwell,turned down,after
+41226,2026-08-27 11:13:06,Captain Vantage,taken,after
+41227,2026-08-27 14:56:31,Stormwrack,taken,after
+41228,2026-08-27 17:54:44,Sgt. Bulwark,missed,after
+41229,2026-08-27 18:24:07,Halfmoon,taken,after
+41230,2026-08-27 19:10:23,Captain Vantage,taken,after
+41231,2026-08-27 19:42:45,Nightwell,taken,after
+41232,2026-08-27 20:03:12,Meteor Mite,turned down,after
+41232,2026-08-27 20:03:35,Captain Vantage,turned down,after
+41232,2026-08-27 20:03:44,Nightwell,turned down,after
+41233,2026-08-27 20:50:47,Corporal Ashgrove,taken,after
+41234,2026-08-27 22:17:38,Cindermark,taken,after
+41235,2026-08-27 23:18:46,The Undertow,missed,after
+41235,2026-08-27 23:19:48,The Drift,taken,after
+41236,2026-08-27 23:41:31,Sgt. Bulwark,taken,after
+41237,2026-08-28 03:20:32,Stormwrack,taken,after
+41238,2026-08-28 05:10:44,The Gale,taken,after
+41239,2026-08-28 06:39:06,Nightwell,turned down,after
+41239,2026-08-28 06:39:42,The Gale,turned down,after
+41240,2026-08-28 10:03:59,Halfmoon,turned down,after
+41240,2026-08-28 10:04:24,Corporal Ashgrove,taken,after
+41241,2026-08-28 15:19:30,Sgt. Bulwark,taken,after
+41242,2026-08-28 17:03:49,Nightwell,turned down,after
+41242,2026-08-28 17:04:03,The Gale,taken,after
+41243,2026-08-28 17:28:35,The Gale,taken,after
+41244,2026-08-28 18:58:16,Captain Vantage,taken,after
+41245,2026-08-28 19:28:20,Farlight,missed,after
+41245,2026-08-28 19:29:21,Cindermark,taken,after
+41246,2026-08-28 19:54:08,Cindermark,missed,after
+41246,2026-08-28 19:55:11,Ironvale,taken,after
+41247,2026-08-28 20:18:02,Nightwell,taken,after
+41248,2026-08-28 20:25:06,Nightwell,taken,after
+41249,2026-08-28 21:16:01,The Gale,taken,after
+41250,2026-08-28 21:49:26,Stormwrack,turned down,after
+41250,2026-08-28 21:49:44,Ironvale,taken,after
+41251,2026-08-28 21:50:58,Stormwrack,taken,after
+41252,2026-08-28 22:43:52,Ironvale,taken,after
+41253,2026-08-29 08:15:00,Nightwell,taken,after
+41254,2026-08-29 09:15:52,Meteor Mite,missed,after
+41254,2026-08-29 09:16:54,Nightwell,missed,after
+41254,2026-08-29 09:17:56,The Gale,taken,after
+41255,2026-08-29 09:34:26,Stormwrack,taken,after
+41256,2026-08-29 11:00:00,Sgt. Falkirk,taken,after
+41257,2026-08-29 13:50:31,Nightwell,taken,after
+41258,2026-08-29 14:46:23,Nightwell,taken,after
+41259,2026-08-29 15:16:03,Captain Vantage,taken,after
+41260,2026-08-29 15:54:25,Nightwell,missed,after
+41260,2026-08-29 15:55:27,Captain Vantage,taken,after
+41261,2026-08-29 17:02:34,Stormwrack,taken,after
+41262,2026-08-29 18:58:18,The Longcast,taken,after
+41263,2026-08-29 19:13:06,Cindermark,missed,after
+41263,2026-08-29 19:14:08,Sgt. Bulwark,missed,after
+41263,2026-08-29 19:15:09,Sgt. Falkirk,taken,after
+41264,2026-08-29 19:42:22,Sgt. Falkirk,taken,after
+41265,2026-08-29 20:41:05,Sgt. Falkirk,turned down,after
+41265,2026-08-29 20:41:44,Corporal Ashgrove,turned down,after
+41266,2026-08-29 21:33:08,The Drift,turned down,after
+41267,2026-08-29 21:33:09,Sgt. Bulwark,taken,after
+41266,2026-08-29 21:33:25,Stormwrack,taken,after
+41268,2026-08-30 01:15:52,Captain Vantage,taken,after
+41269,2026-08-30 05:06:19,The Gale,taken,after
+41270,2026-08-30 07:21:47,The Gale,turned down,after
+41270,2026-08-30 07:22:24,Sgt. Bulwark,taken,after
+41271,2026-08-30 09:36:04,Corporal Ashgrove,taken,after
+41272,2026-08-30 10:07:49,Ironvale,missed,after
+41272,2026-08-30 10:08:52,Cindermark,taken,after
+41273,2026-08-30 10:18:04,Sgt. Falkirk,missed,after
+41273,2026-08-30 10:19:05,Sgt. Bulwark,taken,after
+41274,2026-08-30 11:27:09,The Longcast,turned down,after
+41274,2026-08-30 11:27:25,Captain Vantage,taken,after
+41275,2026-08-30 13:51:03,Captain Vantage,turned down,after
+41275,2026-08-30 13:51:24,The Gale,turned down,after
+41275,2026-08-30 13:51:51,Nightwell,taken,after
+41276,2026-08-30 13:59:18,Sgt. Falkirk,taken,after
+41277,2026-08-30 15:08:32,Sgt. Bulwark,taken,after
+41278,2026-08-30 15:14:10,Stormwrack,taken,after
+41279,2026-08-30 16:21:23,Cindermark,taken,after
+41280,2026-08-30 16:31:22,Ironvale,taken,after
+41281,2026-08-30 17:09:39,Halfmoon,taken,after
+41282,2026-08-30 17:29:50,The Drift,missed,after
+41283,2026-08-30 18:26:43,The Gale,taken,after
+41284,2026-08-30 18:45:05,Nightwell,turned down,after
+41285,2026-08-30 19:28:42,The Gale,taken,after
+41286,2026-08-30 19:40:55,The Gale,taken,after
+41287,2026-08-30 19:47:08,Sgt. Falkirk,taken,after
+41288,2026-08-30 19:50:41,Sgt. Falkirk,taken,after
+41289,2026-08-30 20:07:16,Ironvale,taken,after
+41290,2026-08-30 20:39:21,The Longcast,taken,after
+41291,2026-08-30 20:46:50,The Drift,taken,after
+41292,2026-08-30 21:16:05,Halfmoon,missed,after
+41292,2026-08-30 21:17:07,The Longcast,taken,after
+41293,2026-08-31 10:37:05,The Gale,turned down,after
+41294,2026-08-31 10:57:05,Cindermark,taken,after
+41295,2026-08-31 13:53:20,Cindermark,taken,after
+41296,2026-08-31 15:03:23,Sgt. Falkirk,taken,after
+41297,2026-08-31 16:44:51,Sgt. Bulwark,missed,after
+41297,2026-08-31 16:45:53,Sgt. Falkirk,taken,after
+41298,2026-08-31 16:53:24,Stormwrack,taken,after
+41299,2026-08-31 17:40:43,The Gale,turned down,after
+41299,2026-08-31 17:41:23,Sgt. Bulwark,taken,after
+41300,2026-08-31 17:42:58,Cindermark,turned down,after
+41300,2026-08-31 17:43:23,Sgt. Bulwark,turned down,after
+41300,2026-08-31 17:43:37,Sgt. Falkirk,taken,after
+41301,2026-08-31 18:42:23,Nightwell,taken,after
+41302,2026-08-31 19:51:18,Cindermark,turned down,after
+41302,2026-08-31 19:51:43,Sgt. Falkirk,taken,after
+41303,2026-08-31 21:50:58,The Longcast,missed,after
+41303,2026-08-31 21:52:00,Captain Vantage,taken,after
+41304,2026-08-31 23:28:32,Ironvale,taken,after
+41305,2026-08-31 23:57:15,Ironvale,taken,after
+41306,2026-09-01 07:55:35,Nightwell,turned down,after
+41306,2026-09-01 07:56:15,The Gale,taken,after
+41307,2026-09-01 09:15:44,Corporal Ashgrove,missed,after
+41307,2026-09-01 09:16:45,Halfmoon,taken,after
+41308,2026-09-01 11:08:42,Stormwrack,taken,after
+41309,2026-09-01 11:15:28,Nightwell,taken,after
+41310,2026-09-01 11:16:55,Nightwell,missed,after
+41310,2026-09-01 11:17:56,Captain Vantage,taken,after
+41311,2026-09-01 11:42:44,Vesper,missed,after
+41311,2026-09-01 11:43:47,Captain Vantage,turned down,after
+41311,2026-09-01 11:44:10,Nightwell,taken,after
+41312,2026-09-01 13:04:42,The Drift,taken,after
+41313,2026-09-01 14:22:36,Sgt. Falkirk,taken,after
+41314,2026-09-01 14:34:59,Corporal Ashgrove,turned down,after
+41314,2026-09-01 14:35:24,Halfmoon,taken,after
+41315,2026-09-01 17:03:54,The Longcast,taken,after
+41316,2026-09-01 17:28:12,The Drift,taken,after
+41317,2026-09-01 17:56:55,The Gale,taken,after
+41318,2026-09-01 18:57:36,The Gale,taken,after
+41319,2026-09-01 20:00:19,The Gale,missed,after
+41319,2026-09-01 20:01:20,Sgt. Bulwark,taken,after
+41320,2026-09-01 20:06:22,Sgt. Falkirk,turned down,after
+41320,2026-09-01 20:06:32,Corporal Ashgrove,taken,after
+41321,2026-09-01 21:20:46,Sgt. Falkirk,taken,after
+41322,2026-09-01 21:39:57,Corporal Ashgrove,taken,after
+41323,2026-09-02 08:44:19,Nightwell,taken,after
+41324,2026-09-02 09:09:42,Nightwell,turned down,after
+41324,2026-09-02 09:10:02,Captain Vantage,taken,after
+41325,2026-09-02 11:38:35,Sgt. Falkirk,taken,after
+41326,2026-09-02 13:47:56,Ironvale,taken,after
+41327,2026-09-02 14:45:10,Nightwell,turned down,after
+41327,2026-09-02 14:45:33,Captain Vantage,taken,after
+41328,2026-09-02 14:59:12,Sgt. Falkirk,taken,after
+41329,2026-09-02 15:29:56,The Gale,taken,after
+41330,2026-09-02 15:39:32,Stormwrack,missed,after
+41331,2026-09-02 15:53:36,Cindermark,taken,after
+41332,2026-09-02 16:27:35,Ironvale,taken,after
+41333,2026-09-02 18:22:59,Sgt. Falkirk,missed,after
+41334,2026-09-02 20:32:02,The Drift,missed,after
+41334,2026-09-02 20:33:03,Stormwrack,taken,after
+41335,2026-09-02 21:04:30,Halfmoon,taken,after
+41336,2026-09-02 22:23:31,Captain Vantage,taken,after
+41337,2026-09-03 09:27:15,The Drift,taken,after
+41338,2026-09-03 10:15:46,Sgt. Falkirk,taken,after
+41339,2026-09-03 10:44:56,Corporal Ashgrove,taken,after
+41340,2026-09-03 11:10:31,Captain Vantage,taken,after
+41341,2026-09-03 12:40:58,The Gale,taken,after
+41342,2026-09-03 12:43:04,Sgt. Falkirk,turned down,after
+41342,2026-09-03 12:43:43,Cindermark,taken,after
+41343,2026-09-03 13:08:36,Nightwell,taken,after
+41344,2026-09-03 13:41:47,Ironvale,taken,after
+41345,2026-09-03 13:53:39,Cindermark,taken,after
+41346,2026-09-03 14:35:48,Halfmoon,turned down,after
+41346,2026-09-03 14:36:11,The Longcast,taken,after
+41347,2026-09-03 16:10:43,Nightwell,taken,after
+41348,2026-09-03 16:22:29,Stormwrack,taken,after
+41349,2026-09-03 16:57:40,The Gale,taken,after
+41350,2026-09-03 18:28:14,Captain Vantage,missed,after
+41350,2026-09-03 18:29:16,Nightwell,taken,after
+41351,2026-09-03 20:06:40,Halfmoon,taken,after
+41352,2026-09-03 20:10:40,The Drift,taken,after
+41353,2026-09-03 20:49:05,The Drift,turned down,after
+41353,2026-09-03 20:49:22,Stormwrack,taken,after
+41354,2026-09-03 21:58:12,Cindermark,taken,after
+41355,2026-09-03 22:24:03,The Gale,missed,after
+41355,2026-09-03 22:25:05,Sgt. Bulwark,taken,after
+41356,2026-09-03 22:37:33,Sgt. Bulwark,taken,after
+41357,2026-09-04 06:27:43,The Gale,taken,after
+41358,2026-09-04 07:14:09,The Gale,taken,after
+41359,2026-09-04 08:52:53,The Gale,taken,after
+41360,2026-09-04 09:34:23,The Longcast,taken,after
+41361,2026-09-04 11:32:25,Captain Vantage,taken,after
+41362,2026-09-04 11:40:17,Stormwrack,taken,after
+41363,2026-09-04 11:45:33,Halfmoon,taken,after
+41364,2026-09-04 11:55:04,Nightwell,turned down,after
+41364,2026-09-04 11:55:40,Captain Vantage,taken,after
+41365,2026-09-04 12:18:48,Cindermark,taken,after
+41366,2026-09-04 12:46:10,Nightwell,taken,after
+41367,2026-09-04 14:13:27,Ironvale,taken,after
+41368,2026-09-04 14:52:11,Stormwrack,taken,after
+41369,2026-09-04 15:16:40,Captain Vantage,turned down,after
+41369,2026-09-04 15:16:55,Nightwell,taken,after
+41370,2026-09-04 15:28:18,Ironvale,taken,after
+41371,2026-09-04 15:35:48,The Longcast,taken,after
+41372,2026-09-04 16:33:38,The Gale,taken,after
+41373,2026-09-04 17:05:03,Stormwrack,turned down,after
+41373,2026-09-04 17:05:26,Ironvale,taken,after
+41374,2026-09-04 18:13:45,Nightwell,taken,after
+41375,2026-09-04 18:44:24,Halfmoon,taken,after
+41376,2026-09-04 18:48:38,Ironvale,missed,after
+41377,2026-09-04 19:07:33,Corporal Ashgrove,taken,after
+41378,2026-09-04 19:27:07,Sgt. Falkirk,taken,after
+41379,2026-09-04 21:22:11,Stormwrack,taken,after
+41380,2026-09-04 21:47:56,Sgt. Bulwark,missed,after
+41381,2026-09-04 21:48:05,Sgt. Bulwark,taken,after
+41380,2026-09-04 21:48:59,The Gale,taken,after
+41382,2026-09-04 22:44:59,Ironvale,missed,after
+41383,2026-09-05 07:23:07,Nightwell,taken,after
+41384,2026-09-05 08:16:46,Cindermark,taken,after
+41385,2026-09-05 08:41:04,Stormwrack,taken,after
+41386,2026-09-05 09:41:42,Nightwell,taken,after
+41387,2026-09-05 10:52:07,Stormwrack,taken,after
+41388,2026-09-05 11:12:01,Stormwrack,taken,after
+41389,2026-09-05 12:15:55,The Gale,taken,after
+41390,2026-09-05 13:04:16,The Longcast,taken,after
+41391,2026-09-05 13:12:05,Captain Vantage,taken,after
+41392,2026-09-05 13:13:32,The Gale,taken,after
+41393,2026-09-05 15:06:20,Meteor Mite,missed,after
+41393,2026-09-05 15:07:22,Nightwell,taken,after
+41394,2026-09-05 15:17:47,The Undertow,missed,after
+41394,2026-09-05 15:18:48,Stormwrack,taken,after
+41395,2026-09-05 15:20:01,Ironvale,taken,after
+41396,2026-09-05 15:23:20,The Longcast,taken,after
+41397,2026-09-05 16:01:03,The Gale,taken,after
+41398,2026-09-05 16:58:56,Halfmoon,taken,after
+41399,2026-09-05 17:12:03,Sgt. Bulwark,taken,after
+41400,2026-09-05 17:28:40,Corporal Ashgrove,taken,after
+41401,2026-09-05 17:57:10,The Gale,taken,after
+41402,2026-09-05 18:20:14,The Gale,turned down,after
+41402,2026-09-05 18:20:34,Sgt. Bulwark,taken,after
+41403,2026-09-05 18:30:43,Captain Vantage,taken,after
+41404,2026-09-05 18:49:24,Ironvale,turned down,after
+41404,2026-09-05 18:49:54,Stormwrack,taken,after
+41405,2026-09-05 19:54:50,Captain Vantage,taken,after
+41406,2026-09-05 19:57:47,The Gale,taken,after
+41407,2026-09-05 21:43:44,Stormwrack,taken,after
+41408,2026-09-05 21:56:47,Sgt. Falkirk,taken,after
+41409,2026-09-06 03:26:58,Sgt. Falkirk,turned down,after
+41410,2026-09-06 07:55:59,Captain Vantage,turned down,after
+41410,2026-09-06 07:56:34,Nightwell,taken,after
+41411,2026-09-06 08:08:30,Captain Vantage,missed,after
+41411,2026-09-06 08:09:33,Nightwell,taken,after
+41412,2026-09-06 09:42:27,The Longcast,turned down,after
+41412,2026-09-06 09:43:02,Nightwell,missed,after
+41412,2026-09-06 09:44:05,Captain Vantage,taken,after
+41413,2026-09-06 10:45:16,The Drift,turned down,after
+41413,2026-09-06 10:45:29,Stormwrack,taken,after
+41414,2026-09-06 12:01:51,The Longcast,taken,after
+41415,2026-09-06 13:36:37,Stormwrack,turned down,after
+41415,2026-09-06 13:37:07,The Drift,taken,after
+41416,2026-09-06 15:21:32,Cindermark,missed,after
+41416,2026-09-06 15:22:35,Sgt. Falkirk,missed,after
+41416,2026-09-06 15:23:36,Sgt. Bulwark,taken,after
+41417,2026-09-06 17:45:33,Cindermark,taken,after
+41418,2026-09-06 20:09:33,Stormwrack,missed,after
+41419,2026-09-06 20:52:08,Captain Vantage,taken,after
