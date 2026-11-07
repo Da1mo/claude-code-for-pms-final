@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dispatch Check-in Prototype</title>
+<style>
+:root{
+  --bg:#f4f2ee; --panel:#ffffff; --ink:#1d1d1f; --muted:#6b6b70; --line:#e3e0da;
+  --accent:#2f5bd3; --accent-ink:#ffffff; --ok:#1f8a4c; --ok-bg:#e3f4ea;
+  --warn:#b26a00; --warn-bg:#fdf0db; --bad:#b3261e; --bad-bg:#fbe5e3;
+  --info-bg:#e8eefc; --phone:#111214; --screen:#fbfaf8; --chip:#efece6;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#141416; --panel:#1e1e21; --ink:#ededee; --muted:#a0a0a8; --line:#33333a;
+    --accent:#7b9bff; --accent-ink:#0d1020; --ok:#5fd08f; --ok-bg:#16301f;
+    --warn:#f0b04a; --warn-bg:#352a14; --bad:#ff8a80; --bad-bg:#3a1c1a;
+    --info-bg:#1d2540; --phone:#000; --screen:#1a1a1d; --chip:#2a2a2f;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:1180px;margin:0 auto;padding:20px 16px 40px}
+header.top h1{font-size:20px;margin:0 0 4px}
+header.top p{margin:0;color:var(--muted);max-width:860px}
+.demo{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0;padding:12px;background:var(--panel);border:1px dashed var(--line);border-radius:12px}
+.demo b{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-right:4px}
+.btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:8px 12px;border-radius:9px}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.ghost{background:transparent}
+.btn.small{padding:5px 9px;font-size:13px}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin:0 0 6px}
+
+/* Phones row */
+.phones{display:grid;grid-template-columns:300px minmax(140px,1fr) 300px;gap:16px;align-items:center;justify-content:center;margin-bottom:24px}
+@media (max-width:820px){.phones{grid-template-columns:1fr;justify-items:center}}
+.phone{width:300px;max-width:100%;background:var(--phone);border-radius:40px;padding:11px;transition:box-shadow .3s}
+.phone.live{box-shadow:0 0 0 4px var(--accent)}
+.screen{background:var(--screen);border-radius:30px;height:620px;overflow:hidden;display:flex;flex-direction:column}
+.sbar{display:flex;justify-content:space-between;padding:12px 22px 4px;font-size:12px;font-weight:600}
+.app{padding:8px 14px 16px;display:flex;flex-direction:column;gap:12px;flex:1;overflow:auto}
+.app h2{margin:0;font-size:19px}
+.seg{display:flex;background:var(--chip);border-radius:10px;padding:3px;gap:3px}
+.seg button{flex:1;border:0;background:transparent;color:var(--ink);padding:7px 4px;border-radius:8px;font-size:12.5px}
+.seg button.on{background:var(--panel);font-weight:600;box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:13px}
+.card h3{margin:0 0 4px;font-size:15.5px}
+.card p{margin:0 0 10px;font-size:13.5px;color:var(--muted)}
+.card .row{display:flex;gap:8px}
+.card .row .btn{flex:1;padding:11px}
+.ring{font-size:34px;font-weight:700;font-variant-numeric:tabular-nums;margin:2px 0 4px}
+.bar{height:5px;border-radius:3px;background:var(--chip);overflow:hidden;margin-bottom:10px}
+.bar i{display:block;height:100%;background:var(--accent);width:100%}
+.card.incoming{border-color:var(--accent);animation:pop .35s}
+.card.alert{border-color:var(--warn);background:var(--warn-bg)}
+.card.alert p{color:var(--ink)}
+.card.note{background:var(--chip);border-color:transparent;animation:pop .35s}
+@keyframes pop{from{transform:scale(.94);opacity:0}to{transform:none;opacity:1}}
+select{font:inherit;font-size:14px;padding:8px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);width:100%}
+.why{font-size:12px;color:var(--muted)}
+.what{font-size:15px;font-weight:600;color:var(--ink);margin:6px 0 10px;line-height:1.35}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:12.5px;margin:0 0 8px}
+.facts dt{color:var(--muted)}
+.facts dd{margin:0}
+.tag{display:inline-block;background:var(--chip);border-radius:6px;padding:1px 6px;font-size:11.5px;margin-right:4px}
+.handoff{font-size:12px;background:var(--info-bg);border-radius:8px;padding:5px 8px;margin-bottom:8px}
+
+/* Relay between phones */
+.relay{text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px;min-height:140px;justify-content:center}
+.relay .track{position:relative;width:100%;max-width:240px;height:44px}
+.relay .track:before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px dashed var(--line)}
+.pill{position:absolute;top:50%;transform:translate(-50%,-50%);left:12%;background:var(--accent);color:var(--accent-ink);font-size:12px;font-weight:600;padding:6px 10px;border-radius:999px;white-space:nowrap;transition:left .9s cubic-bezier(.4,0,.2,1),background .3s}
+.pill.at-gale{left:88%}
+.pill.done{background:var(--ok)}
+.pill.fail{background:var(--bad)}
+.pill.idle{background:var(--chip);color:var(--muted)}
+.relay .msg{font-size:13.5px;max-width:240px}
+.relay .msg strong{display:block}
+@media (max-width:820px){.relay .track{transform:rotate(90deg);width:120px;margin:30px 0}}
+
+/* Console */
+.console{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.console .head{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line)}
+.console .head span{color:var(--muted);font-size:13px}
+.banner{margin:14px 16px 0;padding:10px 12px;border-radius:10px;background:var(--info-bg);font-size:14px;display:flex;gap:10px;justify-content:space-between;align-items:flex-start}
+.table{width:100%;border-collapse:collapse;margin-top:10px}
+.table th{text-align:left;font-size:12px;color:var(--muted);font-weight:600;padding:8px 16px;border-bottom:1px solid var(--line)}
+.table td{padding:12px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+.who{font-weight:600}
+.sub{font-size:12px;color:var(--muted)}
+.chip{display:inline-block;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:600;background:var(--chip)}
+.chip.ok{background:var(--ok-bg);color:var(--ok)}
+.chip.warn{background:var(--warn-bg);color:var(--warn)}
+.chip.live{background:var(--info-bg);color:var(--accent)}
+.meter{width:110px;height:8px;border-radius:5px;background:var(--chip);overflow:hidden;margin:4px 0 2px}
+.meter i{display:block;height:100%;background:var(--accent);transition:width .4s}
+.dots{display:flex;gap:4px;margin-top:4px}
+.dots i{width:10px;height:10px;border-radius:50%;background:var(--chip)}
+.dots i.on{background:var(--warn)}
+.log{padding:12px 16px 16px}
+.log ol{list-style:none;margin:0;padding:0;max-height:240px;overflow:auto}
+.log li{padding:7px 0;border-bottom:1px solid var(--line);font-size:14px;display:flex;gap:10px}
+.log li time{color:var(--muted);font-size:12px;min-width:44px;padding-top:2px}
+.log li .d{margin-left:auto;font-variant-numeric:tabular-nums;font-size:13px;color:var(--muted);white-space:nowrap}
+.flash{animation:flash 1.2s}
+@keyframes flash{from{background:var(--warn-bg)}to{background:transparent}}
+@media (max-width:640px){
+  .table thead{display:none}
+  .table tr{display:block;border-bottom:1px solid var(--line);padding:8px 0}
+  .table td{display:block;border:0;padding:4px 16px}
+}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-size:14px;opacity:0;transition:opacity .25s;pointer-events:none;max-width:calc(100% - 32px)}
+.toast.show{opacity:1}
+footer{margin-top:24px;color:var(--muted);font-size:13px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Bringing quiet responders back: clickable prototype</h1>
+    <p>Two responders, same handler (Kip) and same area (Eastgate). Each callout goes first to whoever ranks higher: travel time counts 60%, standing 25%, skills 15% (the 4.2 weights). Meteor Mite is closer, so they're asked first unless their standing falls far enough. If the first responder doesn't answer in time, you'll see the callout pass to the other. Meteor Mite has already missed 2 pings this week, so a third miss pauses them. The 60s ping wait runs at 10× speed.</p>
+  </header>
+
+  <div class="demo" role="group" aria-label="Demo controls">
+    <b>Demo</b>
+    <button class="btn primary" data-a="send">Send a callout</button>
+    <button class="btn" data-a="nosignal">Callout while Meteor Mite has no signal</button>
+    <button class="btn ghost" data-a="reset">Reset demo</button>
+  </div>
+
+  <div class="phones">
+    <div><p class="label" style="text-align:center" id="lbl-mm">Meteor Mite's phone</p><div class="phone" id="ph-mm"><div class="screen"><div class="sbar"><span class="clk">9:41</span><span class="sig">●●●● 5G</span></div><div class="app" id="app-mm"></div></div></div></div>
+    <div class="relay" aria-live="polite">
+      <p class="label">Callout</p>
+      <div class="track"><span class="pill idle" id="pill">No callout yet</span></div>
+      <div class="msg" id="relayMsg">Press <strong>Send a callout</strong> and don't answer on Meteor Mite's phone.</div>
+    </div>
+    <div><p class="label" style="text-align:center" id="lbl-gale">The Gale's phone</p><div class="phone" id="ph-gale"><div class="screen"><div class="sbar"><span class="clk">9:41</span><span class="sig">●●●● 5G</span></div><div class="app" id="app-gale"></div></div></div></div>
+  </div>
+
+  <p class="label">Kip's handler console · desktop</p>
+  <div class="console">
+    <div class="head"><strong>Rook Dispatch · My responders</strong><span>Kip · Eastgate</span></div>
+    <div class="banner" id="banner">
+      <div><strong>Meteor Mite's standing has been restored.</strong> After Release 4.2, missed pings were scored like turn-downs and some responders stopped being reached. We've reset Meteor Mite to their 11 Aug standing.</div>
+      <button class="btn small ghost" data-a="dismiss">Dismiss</button>
+    </div>
+    <table class="table">
+      <thead><tr><th>Responder</th><th>Status</th><th>Standing</th><th>Rank for next callout</th><th>Pings this week</th><th>Misses (7 days)</th><th></th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="log"><p class="label">What happened and why</p><ol id="log"></ol></div>
+  </div>
+
+  <footer>Prototype for discussion. Fictional data from the Rook course scenario. Scores: taken +0.08, turned down −0.12, missed −0.04; 3 misses in 7 days pauses the responder and forgives those misses; busy for 30 minutes after taking a callout; undelivered pings aren't counted.</footer>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const CREDIT=0.08, DECLINE=0.12, MISS=0.04, LIMIT=3, WAIT=60, SPEED=10;
+const ORDER=["mm","gale"];
+let S, timer=null, nextCallout=0;
+// Real Eastgate callouts from the rook-database (fictional course data). Tags and landmarks are illustrative: the DB has no capability tags.
+const CALLOUTS=[
+  {no:40105, at:"06:51", what:"A man convinced he is a wolf is removing the doors from the courthouse.", place:"Courthouse steps", needs:["structural-entry"]},
+  {no:40107, at:"08:33", what:"A ventriloquist has jammed every radio in the market.", place:"Eastgate market", needs:[]},
+  {no:40109, at:"11:19", what:"A marching band is redirecting traffic on the ring road.", place:"Ring road, east junction", needs:[]},
+  {no:40114, at:"17:40", what:"A man in a hot air balloon is emptying a bank.", place:"High Street bank", needs:["flight"]},
+  {no:40137, at:"08:42", what:"A retired lion tamer has locked the doors of the clock tower from the inside.", place:"Clock tower", needs:["structural-entry"]}
+];
+
+function fresh(){
+  return {
+    r:{
+      mm:{name:"Meteor Mite", eta:"4 min away", min:4, score:1.00, status:"available", busy:"", misses:2, deltas:[MISS,MISS], pings:5, usual:8, view:"home", note:""},
+      gale:{name:"The Gale", eta:"7 min away", min:7, score:0.96, status:"available", busy:"", misses:0, deltas:[], pings:12, usual:12, view:"home", note:""}
+    },
+    offer:null, minute:41,
+    log:[{t:"Mon",m:"Meteor Mite's standing reset to 11 Aug level (was 0.00).",d:"→ 1.00"},
+         {t:"Tue",m:"Meteor Mite missed a ping. Counted lightly: a miss isn't a no.",d:"−0.04"},
+         {t:"Wed",m:"Meteor Mite missed a ping.",d:"−0.04"}]
+  };
+}
+const $=id=>document.getElementById(id);
+const clamp=v=>Math.max(0,Math.min(1,v));
+const pad=n=>String(n).padStart(2,"0");
+function now(){S.minute=(S.minute+1)%60;return "9:"+pad(S.minute);}
+function log(m,d=""){S.log.unshift({t:now(),m,d});}
+function toast(msg){const t=$("toast");t.textContent=msg;t.classList.add("show");clearTimeout(toast._t);toast._t=setTimeout(()=>t.classList.remove("show"),2600);}
+const standing=v=>v>=.7?"High":v>=.4?"Middle":"Low";
+const W_PROX=0.60, W_ACC=0.25, W_CAP=0.15, HORIZON=45;
+function parts(r){return {travel:W_PROX*Math.max(0,1-r.min/HORIZON), stand:W_ACC*r.score, skill:W_CAP*1};}
+function rank(r){const p=parts(r);return p.travel+p.stand+p.skill;}
+function ranked(){return ORDER.slice().sort((a,b)=>rank(S.r[b])-rank(S.r[a]));}
+const nth=i=>["1st","2nd","3rd"][i]||(i+1)+"th";
+
+/* ---------- relay ---------- */
+function relay(pos,state,label,html){
+  const p=$("pill");
+  p.className="pill "+state+(pos==="gale"?" at-gale":"");
+  p.textContent=label; $("relayMsg").innerHTML=html;
+}
+
+/* ---------- console ---------- */
+function chip(r,id){
+  if(S.offer&&S.offer.queue[S.offer.i]===id) return '<span class="chip live">Being offered a callout</span>';
+  if(r.status==="available") return '<span class="chip ok">Available</span>';
+  if(r.status==="busy") return '<span class="chip">Busy '+r.busy+'</span>';
+  if(r.status==="leave") return '<span class="chip">On leave</span>';
+  return '<span class="chip warn">Paused · waiting for check-in</span>';
+}
+function renderConsole(flash){
+  $("rows").innerHTML=ORDER.map(id=>{
+    const r=S.r[id];
+    const dots=Array.from({length:LIMIT},(_,i)=>'<i class="'+(i<r.misses?"on":"")+'"></i>').join("");
+    const act=r.status==="paused"?'<button class="btn small primary" data-a="unpause" data-id="'+id+'">Un-pause</button>'
+      :r.status==="leave"?'<button class="btn small" data-a="available" data-id="'+id+'">Back from leave</button>'
+      :'<button class="btn small" data-a="leave" data-id="'+id+'">Mark on leave</button>';
+    const trend=r.pings<r.usual-2?"Fewer than usual ("+r.usual+")":r.pings>r.usual+2?"More than usual ("+r.usual+")":"Usual is "+r.usual;
+    return '<tr class="'+(flash===id?"flash":"")+'"><td><div class="who">'+r.name+'</div><div class="sub">Eastgate</div></td><td>'+chip(r,id)+'</td>'+
+      '<td><div class="meter"><i style="width:'+Math.round(r.score*100)+'%"></i></div><div class="sub">'+standing(r.score)+' · '+r.score.toFixed(2)+'</div></td>'+
+      '<td><strong>#'+(ranked().indexOf(id)+1)+'</strong> · '+rank(r).toFixed(2)+'<div class="sub">travel '+parts(r).travel.toFixed(2)+' + standing '+parts(r).stand.toFixed(2)+' + skills '+parts(r).skill.toFixed(2)+'</div></td>'+
+      '<td>'+r.pings+'<div class="sub">'+trend+'</div></td>'+
+      '<td><div class="dots">'+dots+'</div><div class="sub">'+r.misses+' of '+LIMIT+' before pause</div></td><td>'+act+'</td></tr>';
+  }).join("");
+  $("log").innerHTML=S.log.map(e=>'<li><time>'+e.t+'</time><span>'+e.m+'</span><span class="d">'+e.d+'</span></li>').join("");
+}
+
+/* ---------- phones ---------- */
+function renderPhone(id){
+  const r=S.r[id], live=S.offer&&S.offer.queue[S.offer.i]===id;
+  $("ph-"+id).classList.toggle("live",!!live);
+  const seg=["available","busy","leave"].map((s,i)=>'<button data-a="'+(s==="busy"?"busyseg":s)+'" data-id="'+id+'" class="'+(r.status===s?"on":"")+'"'+(r.status==="paused"||live?" disabled":"")+'>'+["Available","Busy until…","On leave"][i]+'</button>').join("");
+  let h='<h2>'+r.name+'</h2><div><p class="label" style="margin-bottom:4px">My status</p><div class="seg">'+seg+'</div></div>';
+  if(live){
+    const left=Math.ceil(S.offer.left);
+    const c=S.offer.c, prev=S.offer.i>0?S.r[S.offer.queue[S.offer.i-1]].name:"";
+    h+='<div class="card incoming"><h3>New callout #'+c.no+'</h3>'+
+       (prev?'<div class="handoff">Passed on to you: '+prev+' couldn\'t take it.</div>':'')+
+       '<div class="what">'+c.what+'</div>'+
+       '<dl class="facts"><dt>Where</dt><dd>'+c.place+(c.place.includes("Eastgate")?"":", Eastgate")+'</dd><dt>Travel</dt><dd>'+r.eta+'</dd><dt>Came in</dt><dd>'+c.at+'</dd>'+
+       '<dt>Needs</dt><dd>'+(c.needs.length?c.needs.map(t=>'<span class="tag">'+t+'</span>').join(""):'No special skills')+'</dd>'+
+       '<dt>Handler</dt><dd>Kip</dd><dt>You\'re</dt><dd>'+nth(S.offer.i)+' asked of '+S.offer.queue.length+'</dd></dl>'+
+       '<div class="ring" id="ring-'+id+'">0:'+pad(left)+'</div><div class="bar"><i id="bar-'+id+'" style="width:'+(left/WAIT*100)+'%"></i></div>'+
+       '<div class="row"><button class="btn primary" data-a="take" data-id="'+id+'">Take it</button><button class="btn" data-a="decline" data-id="'+id+'">Turn down</button></div>'+
+       '<p class="why" style="margin:10px 0 0">No answer in 60s passes it on. That costs less than turning it down.</p></div>';
+  }
+  if(r.note) h+='<div class="card note"><h3>'+r.note.title+'</h3><p style="margin:0">'+r.note.body+'</p><div class="row" style="margin-top:10px"><button class="btn small" data-a="clearnote" data-id="'+id+'">OK</button></div></div>';
+  if(!live){
+    if(r.status==="paused"){
+      h+='<div class="card alert"><h3>Still there?</h3><p>You\'ve missed 3 pings this week, so we\'ve paused new callouts. Your standing hasn\'t dropped: those misses won\'t count against you.</p>'+
+        '<div class="row"><button class="btn primary" data-a="here" data-id="'+id+'">I\'m here</button></div>'+
+        '<div style="margin-top:10px"><select data-a="pauseuntil" data-id="'+id+'" aria-label="Pause me until"><option value="">Pause me until…</option><option value="until 8 pm">Tonight, 8 pm</option><option value="until tomorrow">Tomorrow morning</option><option value="leave">I\'m on leave</option></select></div></div>';
+    } else if(r.status==="busy"){
+      h+='<div class="card"><h3>You\'re busy '+r.busy+'</h3><p>No callouts until then, and nothing is counted against you.</p><div class="row"><button class="btn primary" data-a="available" data-id="'+id+'">I\'m available again</button></div></div>';
+    } else if(r.status==="leave"){
+      h+='<div class="card"><h3>You\'re on leave</h3><p>No callouts until you\'re back. Your standing is kept as it is.</p><div class="row"><button class="btn primary" data-a="available" data-id="'+id+'">I\'m back</button></div></div>';
+    } else if(!r.note){
+      h+='<div class="card"><h3>Ready for callouts</h3><p style="margin:0">Your standing: <strong>'+standing(r.score)+'</strong>. '+(r.misses?r.misses+' missed this week. At '+LIMIT+' we\'ll check in with you first.':'No missed pings this week.')+'</p></div>';
+    }
+  }
+  $("app-"+id).innerHTML=h;
+}
+function render(flash){ORDER.forEach(renderPhone);ranked().forEach((id,i)=>{$("lbl-"+id).textContent=S.r[id].name+"'s phone · ranked "+nth(i)+" ("+rank(S.r[id]).toFixed(2)+")";});renderConsole(flash);document.querySelectorAll(".clk").forEach(c=>c.textContent="9:"+pad(S.minute));}
+
+/* ---------- callout flow ---------- */
+function stopTimer(){clearInterval(timer);timer=null;}
+function sendCallout(undeliveredTo){
+  if(S.offer) return toast("A callout is already out");
+  const c=CALLOUTS[nextCallout++%CALLOUTS.length], no=c.no, queue=[];
+  ranked().forEach(id=>{
+    const r=S.r[id];
+    if(r.status!=="available"){log("Callout #"+no+" skipped "+r.name+" ("+(r.status==="paused"?"paused":r.status==="busy"?"busy":"on leave")+"). Not counted.","0.00");}
+    else if(id===undeliveredTo){log("Callout #"+no+" couldn't reach "+r.name+"'s phone (no signal). Passed on, not counted as a miss.","0.00");
+      r.note={title:"A callout couldn't reach you",body:"Your phone had no signal, so it went to someone else. This doesn't count against you."};}
+    else queue.push(id);
+  });
+  if(!queue.length){log("Callout #"+no+": nobody available. Kip alerted.");relay("mm","fail","#"+no+" unfilled","<strong>Nobody available</strong>Kip is alerted to find cover.");render();return;}
+  S.offer={no,c,queue,i:0,left:WAIT};
+  offerCurrent(queue[0]!==ranked()[0]?"<strong>Went straight to "+S.r[queue[0]].name+"</strong>"+S.r[ranked()[0]].name+" couldn't be offered it.":null);
+}
+function offerCurrent(why){
+  const id=S.offer.queue[S.offer.i], r=S.r[id];
+  r.pings++; S.offer.left=WAIT;
+  relay(id,"","#"+S.offer.no+" → "+r.name,why||("<strong>Offered to "+r.name+"</strong>Ranked "+nth(ranked().indexOf(id))+": "+r.eta+", standing "+standing(r.score).toLowerCase()+"."));
+  render(id);
+  stopTimer();
+  timer=setInterval(()=>{
+    S.offer.left-=SPEED/10;
+    if(S.offer.left<=0){stopTimer();onMiss(id);return;}
+    const el=$("ring-"+id), b=$("bar-"+id);
+    if(el) el.textContent="0:"+pad(Math.ceil(S.offer.left));
+    if(b) b.style.width=(S.offer.left/WAIT*100)+"%";
+  },100);
+}
+function passOn(fromId,reason){
+  S.offer.i++;
+  if(S.offer.i<S.offer.queue.length){
+    const to=S.r[S.offer.queue[S.offer.i]].name;
+    relay(fromId,"","#"+S.offer.no+" passing on…","<strong>"+S.r[fromId].name+" "+reason+"</strong>Passing to "+to+"…");
+    render(fromId);
+    const keep=S.offer;
+    setTimeout(()=>{ if(S.offer===keep) offerCurrent("<strong>Passed to "+to+"</strong>"+S.r[fromId].name+" "+reason+"."); },950);
+  } else {
+    log("Callout #"+S.offer.no+" went unanswered by everyone. Kip alerted.");
+    relay(fromId,"fail","#"+S.offer.no+" unfilled","<strong>Nobody took it</strong>Kip is alerted to find cover.");
+    S.offer=null; render(fromId); toast("Callout unfilled. Kip alerted");
+  }
+}
+function onMiss(id){
+  const r=S.r[id], before=r.score;
+  r.score=clamp(r.score-MISS); r.deltas.push(before-r.score); r.misses++;
+  log(r.name+" didn't answer callout #"+S.offer.no+" in 60s. Counted lightly: a miss isn't a no.","−0.04");
+  r.note={title:"You missed callout #"+S.offer.no,body:"It's gone to "+(S.offer.queue[S.offer.i+1]?S.r[S.offer.queue[S.offer.i+1]].name:"someone else")+". Counted lightly. "+(r.misses<LIMIT?r.misses+" of "+LIMIT+" this week.":"")};
+  if(r.misses>=LIMIT){
+    const back=r.deltas.reduce((a,b)=>a+b,0);
+    r.score=clamp(r.score+back); r.misses=0; r.deltas=[]; r.status="paused"; r.note="";
+    log("3 misses in 7 days. "+r.name+" paused and asked \"Still there?\". The 3 misses are forgiven.","+"+back.toFixed(2));
+  }
+  passOn(id,"didn't answer in 60s");
+}
+function onDecline(id){
+  stopTimer();
+  const r=S.r[id]; r.score=clamp(r.score-DECLINE);
+  log(r.name+" turned down callout #"+S.offer.no+".","−0.12");
+  passOn(id,"turned it down");
+}
+function onTake(id){
+  stopTimer();
+  const r=S.r[id], no=S.offer.no;
+  r.score=clamp(r.score+CREDIT); r.misses=0; r.deltas=[]; r.status="busy"; r.busy="for 30 min";
+  log(r.name+" took callout #"+no+". Marked busy for 30 min.","+0.08");
+  relay(id,"done","#"+no+" taken","<strong>Taken by "+r.name+"</strong>Kip can see who's on it.");
+  S.offer=null; render(id); toast(r.name+" took it");
+}
+function setStatus(id,st,busy){const r=S.r[id];r.status=st;r.busy=busy||"";render(id);}
+
+/* ---------- events ---------- */
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-a]"); if(!b||b.disabled||b.tagName==="SELECT") return;
+  const a=b.dataset.a, id=b.dataset.id, r=id&&S.r[id];
+  switch(a){
+    case "send": sendCallout(); break;
+    case "nosignal": sendCallout("mm"); break;
+    case "reset": stopTimer(); S=fresh(); $("banner").style.display=""; relay("mm","idle","No callout yet","Press <strong>Send a callout</strong> and don't answer on Meteor Mite's phone."); render(); break;
+    case "dismiss": $("banner").style.display="none"; break;
+    case "take": onTake(id); break;
+    case "decline": onDecline(id); break;
+    case "clearnote": r.note=""; render(); break;
+    case "here": log(r.name+" checked in: \"I'm here\". Back on the list at the same standing."); setStatus(id,"available"); toast("Welcome back"); break;
+    case "unpause": log("Kip put "+r.name+" back on the list."); setStatus(id,"available"); break;
+    case "leave": log((b.closest(".seg")?r.name+" set themselves":"Kip marked "+r.name)+" on leave."); setStatus(id,"leave"); break;
+    case "available": log(r.name+" is available again."); setStatus(id,"available"); break;
+    case "busyseg": log(r.name+" set themselves busy until 14:00."); setStatus(id,"busy","until 14:00"); break;
+  }
+});
+document.addEventListener("change",e=>{
+  const s=e.target; if(s.dataset.a!=="pauseuntil"||!s.value) return;
+  const id=s.dataset.id, r=S.r[id];
+  if(s.value==="leave"){log(r.name+" answered the check-in: on leave.");setStatus(id,"leave");}
+  else {log(r.name+" answered the check-in: paused "+s.value+".");setStatus(id,"busy",s.value);}
+});
+
+S=fresh(); render();
+</script>
+</body>
+</html>

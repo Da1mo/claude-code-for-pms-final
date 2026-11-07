@@ -71,3 +71,23 @@ yeah include the possibility for the user to change the status back
 ### 14.
 
 first write me a brief of 1 page.. where you lay out the solutions and the reasons for it
+
+### 15.
+
+can you give me the solution where i can see both the Meteor Mite and The Gale phones? i want to see the transition between them when the user doesnt answer the callout
+
+### 16.
+
+right now even if the rating is lower for the meteor mite is still getting ping previously to the gale
+
+### 17.
+
+so you are update the location randomly?
+
+### 18.
+
+are there any changes on the ui on the roadmap
+
+### 19.
+
+so can you give a little bit more information on the callout for the users?
