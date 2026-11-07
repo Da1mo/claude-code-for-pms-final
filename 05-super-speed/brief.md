@@ -1,6 +1,7 @@
 # Bringing quiet responders back — one-pager
 
 **To:** Helen Achebe · **From:** Rook Dispatch PM · **Date:** 7 Nov 2026 · **Status:** Draft for discussion
+**Owner:** Rook Dispatch PM (accountable from decision through the 4-week check after launch) · **Engineering:** Wen Li, to confirm with Marcus
 
 ## The problem, in one paragraph
 Since 4.2 (12 Aug), four responders — Farlight, Meteor Mite, The Undertow and Vesper — have almost stopped being pinged, while The Gale and Nightwell got busier. The cause is in how routing scores people: **a missed ping costs the same as a "no" (−0.12), a "yes" earns only +0.08, and the score never recovers on its own** (Wen's 2019 TODO). The shorter 60s ping wait raised misses from 2.3% to 18% of pings, so people who were busy or out of signal sank to the bottom without anyone — them or their handler — being told. Farlight went from 1.0 to 0 in three weeks; her last ping was 28 Aug.
@@ -25,6 +26,16 @@ The 60s ping wait stays as it is.
 | Other 12 responders — average (lowest) | 0.90 (0.72) | 0.94 (0.84) |
 
 Nobody ends lower than today. The 30-min busy window blocks 21 pings (6 misses, 15 turn-downs) and keeps all 37 second jobs, assuming people tap "available again". Changes 3 and 4 can't be tested: there's no status or delivery data.
+
+## How we'll know it worked
+Checked weekly with Ravi; judged **4 weeks after launch** against the weeks before 4.2 (29 Jun–3 Aug):
+| Signal | Before 4.2 | Since 4.2 | Target by week 4 |
+|---|---|---|---|
+| Missed pings, share of all pings | 2.3% | 18.0% | under 5% |
+| Acceptance rate | 75–78%/week | 54–73% | 75% or above |
+| The four sunk responders, pings/week | Farlight ~12 | ~3 or none | each back to at least half their pre-4.2 level |
+| Unfilled callouts/week | 4–12 | 14–17 | 12 or fewer |
+| "Responder gone quiet" tickets | 0 | 30 | none new after week 2 |
 
 ## Limits and risks
 - The replay keeps history in the order it happened; it can't re-rank (no location data), so it shows score effects, not who would have been asked instead.
