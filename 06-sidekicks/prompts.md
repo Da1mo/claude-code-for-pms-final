@@ -39,3 +39,7 @@ is the skill already created?
 ### 6.
 
 so they dont appear on my claude app?
+
+### 7.
+
+on the open full clickable prototype i cant see the prototype running
